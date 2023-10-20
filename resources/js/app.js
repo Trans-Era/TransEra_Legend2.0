@@ -10,6 +10,7 @@ import intersect from '@alpinejs/intersect'
 import collapse from '@alpinejs/collapse'
 import persist from '@alpinejs/persist'
 import Tooltip from '@ryangjchandler/alpine-tooltip'
+import { insertBgImages } from './utils/bg'
 
 import './demo'
 import './components'
@@ -36,3 +37,10 @@ Alpine.store('app', {
 })
 //Start Alpine
 Alpine.start()
+
+document.onreadystatechange = function () {
+    if (document.readyState == 'complete') {
+      // Replace bg images
+      insertBgImages()
+    }
+  }

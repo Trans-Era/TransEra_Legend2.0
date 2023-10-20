@@ -90,7 +90,7 @@
             dark:bg-muted-1000
             "
             :class="swiper.realIndex === 0 ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
-            data-background="/img/bg/2.png"
+            data-background="/img/carImg/IMG_6949.JPG"
             data-swiper-autoplay="2000"
         >
         </div>
@@ -105,7 +105,7 @@
             dark:bg-muted-1000
             "
             :class="swiper.realIndex === 1 ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
-            data-background="/img/bg/1.jpeg"
+            data-background="{{ asset('img/carImg/mustang5.jpg') }}"
         >
         </div>
         <!--Slide 3-->
