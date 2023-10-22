@@ -79,77 +79,22 @@
         "
         ></div>
         <div class="swiper-wrapper">
-        <!--Slide 1-->
-        <div
-            class="
-            swiper-slide
-            w-full
-            bg-muted-100
-            h-screen
-            min-h-screen
-            dark:bg-muted-1000
-            "
-            :class="swiper.realIndex === 0 ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
-            data-background="/img/carImg/IMG_6949.JPG"
-            data-swiper-autoplay="2000"
-        >
-        </div>
-        <!--Slide 2-->
-        <div
-            class="
-            swiper-slide
-            w-full
-            bg-muted-100
-            h-screen
-            min-h-screen
-            dark:bg-muted-1000
-            "
-            :class="swiper.realIndex === 1 ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
-            data-background="{{ asset('img/carImg/mustang5.jpg') }}"
-        >
-        </div>
-        <!--Slide 3-->
-        <div
-            class="
-            swiper-slide
-            w-full
-            bg-muted-100
-            h-screen
-            min-h-screen
-            dark:bg-muted-1000
-            "
-            :class="swiper.realIndex === 2 ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
-            data-background="/img/bg/4.png"
-        >
-        </div>
-        <!--Slide 4-->
-        <div
-            class="
-            swiper-slide
-            w-full
-            bg-muted-100
-            h-screen
-            min-h-screen
-            dark:bg-muted-1000
-            "
-            :class="swiper.realIndex === 3 ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
-            data-background="/img/bg/3.jpg"
-        >
-        </div>
-        <!--Slide 5-->
-        <div
-            class="
-            swiper-slide
-            w-full
-            bg-muted-100
-            h-screen
-            min-h-screen
-            dark:bg-muted-1000
-            "
-            :class="swiper.realIndex === 4 ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
-            data-background="/img/bg/6.jpg"
-        >
-        </div>
+            @for ($i = 0; $i < count($cars); $i++)
+            <div
+                class="
+                swiper-slide
+                w-full
+                bg-muted-100
+                h-screen
+                min-h-screen
+                dark:bg-muted-1000
+                "
+                :class="swiper.realIndex === {{ $i }} ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
+                data-background="{{ $cars[$i]->photo }}"
+                data-swiper-autoplay="2000"
+            >
+            </div>
+            @endfor
         </div>
 
         <!--Controls-->
@@ -171,75 +116,19 @@
         "
         >
         <div class="swiper-caption-inner">
-            <div class="flex gap-4 p-5" x-show="swiper.realIndex === 0">
-            <div class="h-12 w-12 min-w-[3rem] flex items-center justify-center">
-               
-            </div>
-            <div>
-                <h3 class="font-sans font-semibold text-lg">Tucson 2022</h3>
-                <p class="font-sans text-xs">Deep Gray · 19’’ Sport Wheels · LED</p>
-                <p class="font-sans text-xs mt-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Multa
-                sunt dicta ab.
-                </p>
-            </div>
-            </div>
-
-            <div class="flex gap-4 p-5" x-show="swiper.realIndex === 1">
-            <div class="h-12 w-12 min-w-[3rem] flex items-center justify-center">
-               
-            </div>
-            <div>
-                <h3 class="font-sans font-semibold text-lg">Q3 2022</h3>
-                <p class="font-sans text-xs">Suburst · 18’’ Sport Wheels · LED</p>
-                <p class="font-sans text-xs mt-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Multa
-                sunt dicta ab.
-                </p>
-            </div>
-            </div>
-
-            <div class="flex gap-4 p-5" x-show="swiper.realIndex === 2">
-            <div class="h-12 w-12 min-w-[3rem] flex items-center justify-center">
-               
-            </div>
-            <div>
-                <h3 class="font-sans font-semibold text-lg">Velar 2022</h3>
-                <p class="font-sans text-xs">Metal · 20’’ Sport Wheels · LED</p>
-                <p class="font-sans text-xs mt-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Multa
-                sunt dicta ab.
-                </p>
-            </div>
-            </div>
-
-            <div class="flex gap-4 p-5" x-show="swiper.realIndex === 3">
-            <div class="h-12 w-12 min-w-[3rem] flex items-center justify-center">
-               
-            </div>
-            <div>
-                <h3 class="font-sans font-semibold text-lg">Class C 2022</h3>
-                <p class="font-sans text-xs">Black · 18’’ Sport Wheels · Coupé</p>
-                <p class="font-sans text-xs mt-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Multa
-                sunt dicta ab.
-                </p>
-            </div>
-            </div>
-
-            <div class="flex gap-4 p-5" x-show="swiper.realIndex === 4">
-            <div class="h-12 w-12 min-w-[3rem] flex items-center justify-center">
-               
-            </div>
-            <div>
-                <h3 class="font-sans font-semibold text-lg">Series 7 2022</h3>
-                <p class="font-sans text-xs">Black · 18’’ Sport Wheels · Coupé</p>
-                <p class="font-sans text-xs mt-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Multa
-                sunt dicta ab.
-                </p>
-            </div>
-            </div>
+            @for ($i = 0; $i < count($cars); $i++)
+                <div class="flex gap-4 p-5" x-show="swiper.realIndex === {{ $i }}">
+                    <div class="h-12 w-12 min-w-[3rem] flex items-center justify-center">
+                    </div>
+                    <div>
+                        <h3 class="font-sans font-semibold text-lg">{{ $cars[$i]->brand->name }} {{ $cars[$i]->name }}</h3>
+                        <p class="font-sans text-xs">Deep Gray · 19’’ Sport Wheels · LED</p>
+                        <p class="font-sans text-xs mt-1">
+                        {{ $cars[$i]->description }}
+                        </p>
+                    </div>
+                </div>
+            @endfor
 
             <div class="w-full flex items-center border-t border-muted-800">
             <div class="flex">

@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Car;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class HomeController extends Controller
@@ -14,7 +13,7 @@ class HomeController extends Controller
     public function __invoke(): View
     {
         return view('home.index', [
-            'cars' => Car::all()
+            'cars' => Car::all(),
         ]);
     }
 }

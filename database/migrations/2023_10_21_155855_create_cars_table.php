@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->foreignId('brand_id')->constrained()->cascadeOnDelete();
+            $table->string('photo');
+            $table->string('thumbnail');
             $table->integer('year');
             $table->timestamps();
         });

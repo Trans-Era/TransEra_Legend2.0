@@ -367,7 +367,7 @@
             <i class="iconify w-4 h-4" data-icon="lucide:heart"></i>
             </a>
             <a
-            href="/dashboard.html"
+            href="{{ route('login.index') }}"
             class="
                 relative
                 font-sans font-normal

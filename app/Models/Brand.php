@@ -4,17 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Brand extends Model
 {
     use HasFactory;
 
     /**
-     * @return BelongsTo<Car, Brand>
+     * @return HasMany<Car>
      */
-    public function car(): BelongsTo
+    public function car(): HasMany
     {
-        return $this->belongsTo(Car::class);
+        return $this->hasMany(Car::class);
     }
 }

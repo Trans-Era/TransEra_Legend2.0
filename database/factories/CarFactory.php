@@ -21,6 +21,8 @@ class CarFactory extends Factory
             'name' => fake()->name(),
             'description' => fake()->text(),
             'brand_id' => Brand::factory(),
+            'photo' => 'img/car/1/profil.webp',
+            'thumbnail' => 'img/car/1/thumbnail.webp',
             'year' => fake()->numberBetween(2000, 2023),
         ];
     }
