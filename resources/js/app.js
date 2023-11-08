@@ -39,9 +39,10 @@ Alpine.store('app', {
 //Start Alpine
 Alpine.start()
 
+/*
 document.onreadystatechange = function () {
     if (document.readyState == 'complete') {
       // Replace bg images
       insertBgImages()
     }
-  }
+  }*/

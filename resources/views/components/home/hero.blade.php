@@ -91,8 +91,9 @@
                 dark:bg-muted-1000
                 "
                 :class="swiper.realIndex === {{ $i }} ? 'lg:animate-kenburns bg-center lg:bg-left-top' : ''"
-                data-background="{{ $cars[$i]->photo }}"
+                data-background="{{ asset($cars[$i]->photo) }}"
                 data-swiper-autoplay="2000"
+                style="width: 1062px; background-size: cover; background-repeat: no-repeat; background-image: url({{ asset($cars[$i]->photo) }});"
             >
             </div>
             @endfor
