@@ -17,6 +17,7 @@ class LoginController extends Controller
     public function store(LoginRequest $request): View
     {
         Auth::attempt(['email' => $request->email, 'password' => $request->password], isset($request->remember_me));
+
         return view('login.index');
     }
 }

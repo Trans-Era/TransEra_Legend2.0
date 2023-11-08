@@ -4,7 +4,6 @@ namespace App\View\Components\Car;
 
 use Closure;
 use Illuminate\Contracts\View\View;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\View\Component;
 
 class Video extends Component
@@ -12,7 +11,9 @@ class Video extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct() {}
+    public function __construct()
+    {
+    }
 
     /**
      * Get the view / contents that represent the component.

@@ -34,9 +34,9 @@
         </main>
 
         <!--Footer-->
-        {{-- {{> footer/footer}}
+        <x-layouts.footer />
 
         <!--Back to top button-->
-        {{> misc/backtotop}} --}}
+        <x-layouts.backtotop />
     </body>
 </html>
