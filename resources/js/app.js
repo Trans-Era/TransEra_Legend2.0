@@ -1,5 +1,6 @@
 import './bootstrap';
 
+import '@purge-icons/generated'
 //Swiper
 import Swiper from 'swiper/bundle';
 window.Swiper = Swiper

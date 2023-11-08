@@ -1,3 +1,4 @@
+<div class="min-h-screen">
 <section
     class="relative swiper"
     x-cloak
@@ -227,3 +228,4 @@
         </div>
     </div>
 </section>
+</div>

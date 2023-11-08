@@ -83,7 +83,7 @@
                 dark:text-muted-50
               "
             >
-              Audi RS-8
+                Audi RS-8
             </h3>
             <p class="font-sans text-xs text-muted-400">
               Available for local delivery

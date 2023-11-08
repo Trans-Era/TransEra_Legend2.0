@@ -7,6 +7,7 @@ export function navbar() {
     megamenuOpened: false,
     openedMegamenu: '',
     scroll() {
+        console.log('je scroll')
       let scrollValue = window.scrollY
       if (scrollValue >= this.height) {
         this.scrolled = true
