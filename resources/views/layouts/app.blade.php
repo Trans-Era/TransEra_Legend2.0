@@ -12,7 +12,7 @@
         <!-- prettier-ignore -->
 
         <!--Site navbar-->
-        <x-navbar.navbar-static />
+        <x-navbar-static />
 
         <main
         class="relative w-full transition-all duration-300 z-10"

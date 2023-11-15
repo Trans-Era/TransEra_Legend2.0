@@ -15,6 +15,14 @@ class Car extends Model
     ];
 
     /**
+     * Get the route key for the model.
+     */
+    public function getRouteKeyName(): string
+    {
+        return 'slug';
+    }
+
+    /**
      * @return BelongsTo<Brand, Car>
      */
     public function brand(): BelongsTo

@@ -59,6 +59,7 @@
     >
       <!--Grid item-->
       @foreach ($cars as $car)
+      <a href="{{ route('cars.index', $car->slug) }}">
       <div class="relative group">
         <div class="flex items-center gap-4 mb-4">
           <div
@@ -179,8 +180,7 @@
             </div>
           </div>
         </div>
-        <a
-          href="/vehicle.html"
+        <div
           class="
             relative
             font-sans font-normal
@@ -208,8 +208,9 @@
           "
         >
           View Details
-        </a>
+        </div>
       </div>
+      </a>
     @endforeach
     </div>
     <!--CTA-->
