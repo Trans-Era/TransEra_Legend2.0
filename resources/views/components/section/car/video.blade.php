@@ -14,7 +14,7 @@
           text-primary-500
           dark:bg-primary-500 dark:text-white
         ">
-        Our Catalog
+        Notre media
       </span>
       <!--Title-->
       <h2 class="
@@ -24,12 +24,11 @@
           text-muted-800
           dark:text-white
         ">
-        Drive Experience
+        Experience Visuelle
       </h2>
       <!--Subtitle-->
       <p class="font-sans font-light text-lg text-muted-500 dark:text-muted-400">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Torquatus:
-        Prorsus, inquit, assentior.
+        Pourquoi avoir que des simple images quand une video peut vous transporter bien plus simplement et plus loin ?
       </p>
     </div>
 

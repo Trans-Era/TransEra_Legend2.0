@@ -397,7 +397,7 @@
                 uppercase
                 mb-4
               ">
-              Buy vehicles
+              Véhicule
             </h2>
             <ul class="font-sans space-y-2 mb-10">
               <li>
@@ -408,7 +408,7 @@
                     hover:text-white hover:underline
                     dark:text-muted-400 dark:hover:text-muted-100
                   ">
-                  Inventory
+                  Notre flotte
                 </a>
               </li>
               <li>
@@ -419,7 +419,7 @@
                     hover:text-white hover:underline
                     dark:text-muted-400 dark:hover:text-muted-100
                   ">
-                  New vehicles
+                  Voiture disponible
                 </a>
               </li>
               <li>
@@ -430,29 +430,7 @@
                     hover:text-white hover:underline
                     dark:text-muted-400 dark:hover:text-muted-100
                   ">
-                  Used vehicles
-                </a>
-              </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  All models
-                </a>
-              </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  Buying online
+                  Nouvelle réservation
                 </a>
               </li>
             </ul>
@@ -477,7 +455,7 @@
                     hover:text-white hover:underline
                     dark:text-muted-400 dark:hover:text-muted-100
                   ">
-                  Test drive
+                  Mon compte
                 </a>
               </li>
               <li>
@@ -488,7 +466,7 @@
                     hover:text-white hover:underline
                     dark:text-muted-400 dark:hover:text-muted-100
                   ">
-                  Store network
+                  Mes reservations
                 </a>
               </li>
               <li>
@@ -499,40 +477,7 @@
                     hover:text-white hover:underline
                     dark:text-muted-400 dark:hover:text-muted-100
                   ">
-                  Rate calculator
-                </a>
-              </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  Book appointment
-                </a>
-              </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  Technology
-                </a>
-              </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  FAQs
+                  Condition d'utilisation
                 </a>
               </li>
             </ul>
@@ -546,7 +491,7 @@
                 uppercase
                 mb-4
               ">
-              Company
+              Entreprise
             </h2>
             <ul class="font-sans space-y-2 mb-10">
               <li>
@@ -557,7 +502,7 @@
                     hover:text-white hover:underline
                     dark:text-muted-400 dark:hover:text-muted-100
                   ">
-                  About us
+                  A propos de nous
                 </a>
               </li>
               <li>
@@ -579,90 +524,10 @@
                     hover:text-white hover:underline
                     dark:text-muted-400 dark:hover:text-muted-100
                   ">
-                  Customer center
-                </a>
-              </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  Terms Of Service
+                  Evènement
                 </a>
               </li>
             </ul>
-          </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="
-                font-sans font-medium
-                text-muted-100
-                tracking-widest
-                text-sm
-                uppercase
-                mb-4
-              ">
-              SUBSCRIBE
-            </h2>
-            <div class="
-                flex
-                xl:flex-nowrap
-                md:flex-nowrap
-                lg:flex-wrap
-                flex-wrap
-                justify-center
-                items-end
-                md:justify-start
-              ">
-              <div class="relative w-full flex flex-col gap-2">
-                <input type="text" placeholder="Enter your email..." class="
-                    w-full
-                    h-10
-                    bg-muted-800/50
-                    border border-muted-700
-                    text-sm
-                    outline-none
-                    py-2
-                    px-3
-                    leading-8
-                    placeholder:text-muted-600
-                    text-muted-100
-                    transition-colors
-                    duration-300
-                    tw-accessibility
-                  ">
-                <button class="
-                    w-full
-                    h-10
-                    flex
-                    items-center
-                    justify-center
-                    font-sans
-                    text-sm text-white
-                    bg-primary-500
-                    border-0
-                    py-2
-                    px-6
-                    focus:outline-none
-                    hover:bg-primary-600
-                  ">
-                  Subscribe
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -725,10 +590,10 @@
     	c9.5,2.2,19.6,3.4,30.4,3.4c1.3,0,2.6,0,3.9-0.1c0.3,0,0.7,0,1,0C391.2,360.7,392.4,360.6,393.5,360.6z"></path>
     </svg>
     </div>
-            <span class="text-xl text-muted-100">Finity</span>
+            <span class="text-xl text-muted-100">TransEra Legend</span>
           </a>
           <p class="text-sm text-muted-400 sm:ml-6 sm:mt-0 mt-4">
-            © 2022-2023 Css Ninja — All Rights Reserved.
+            © 2022-2023 TransEra — All Rights Reserved.
           </p>
           <span class="
               inline-flex
@@ -738,16 +603,13 @@
               justify-center
               sm:justify-start
             ">
-            <a href="#" class="text-muted-400 hover:text-primary-500">
+            <a href="https://www.facebook.com/profile.php?id=61553437363545" class="text-muted-400 hover:text-primary-500">
               <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="0.63em" height="1em" viewBox="0 0 320 512" data-icon="fa6-brands:facebook-f" class="iconify w-4 h-4 iconify--fa6-brands"><path fill="currentColor" d="m279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
             </a>
-            <a href="#" class="text-muted-400 hover:text-primary-500">
-              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 512 512" data-icon="fa6-brands:twitter" class="iconify w-4 h-4 iconify--fa6-brands"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645c0 138.72-105.583 298.558-298.558 298.558c-59.452 0-114.68-17.219-161.137-47.106c8.447.974 16.568 1.299 25.34 1.299c49.055 0 94.213-16.568 130.274-44.832c-46.132-.975-84.792-31.188-98.112-72.772c6.498.974 12.995 1.624 19.818 1.624c9.421 0 18.843-1.3 27.614-3.573c-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319c-28.264-18.843-46.781-51.005-46.781-87.391c0-19.492 5.197-37.36 14.294-52.954c51.655 63.675 129.3 105.258 216.365 109.807c-1.624-7.797-2.599-15.918-2.599-24.04c0-57.828 46.782-104.934 104.934-104.934c30.213 0 57.502 12.67 76.67 33.137c23.715-4.548 46.456-13.32 66.599-25.34c-7.798 24.366-24.366 44.833-46.132 57.827c21.117-2.273 41.584-8.122 60.426-16.243c-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
-            </a>
-            <a href="#" class="text-muted-400 hover:text-primary-500">
+            <a href="https://www.instagram.com/transera_legend/" class="text-muted-400 hover:text-primary-500">
               <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="0.88em" height="1em" viewBox="0 0 448 512" data-icon="fa6-brands:instagram" class="iconify w-4 h-4 iconify--fa6-brands"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9S287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7s74.7 33.5 74.7 74.7s-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8c-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8s26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9c-26.2-26.2-58-34.4-93.9-36.2c-37-2.1-147.9-2.1-184.9 0c-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9c1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0c35.9-1.7 67.7-9.9 93.9-36.2c26.2-26.2 34.4-58 36.2-93.9c2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
             </a>
-            <a href="#" class="text-muted-400 hover:text-primary-500">
+            <a href="https://www.linkedin.com/company/100051771" class="text-muted-400 hover:text-primary-500">
               <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="0.88em" height="1em" viewBox="0 0 448 512" data-icon="fa6-brands:linkedin-in" class="iconify w-4 h-4 iconify--fa6-brands"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2c-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3c94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
             </a>
           </span>

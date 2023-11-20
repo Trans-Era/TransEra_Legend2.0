@@ -3,6 +3,7 @@
 
 /* Additional styles */
 @import 'swiper/css/bundle';
+@import './additionnal.css';
 /* @import 'additional-styles/utility-patterns.css'; */
 
 @import 'tailwindcss/utilities';

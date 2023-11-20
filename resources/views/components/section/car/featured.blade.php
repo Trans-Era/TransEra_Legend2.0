@@ -16,7 +16,7 @@
           dark:bg-primary-500 dark:text-white
         "
       >
-        Our Catalog
+        Notre flotte
       </span>
       <!--Title-->
       <h2
@@ -28,14 +28,13 @@
           dark:text-white
         "
       >
-        Inventory
+        Les Disponibles
       </h2>
       <!--Subtitle-->
       <p
         class="font-sans font-light text-lg text-muted-500 dark:text-muted-400"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Torquatus:
-        Prorsus, inquit, assentior.
+        Ici vous avez nos véhicules disponible à la location pour demain, pas besoin de cherchez bien loin l'excellence avec TransEra Legend
       </p>
     </div>
 
