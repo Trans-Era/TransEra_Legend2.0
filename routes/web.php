@@ -20,4 +20,4 @@ Route::get('/', HomeController::class)->name('home.index');
 Route::get('/login', [LoginController::class, 'index'])->name('login.index');
 Route::post('/login', [LoginController::class, 'store'])->name('login.store');
 
-Route::get('/cars/{car:slug}', \App\Http\Controllers\Car\IndexController::class)->name('cars.index');
+Route::get('/cars/{car:slug}', \App\Http\Controllers\Car\ShowController::class)->name('cars.show');

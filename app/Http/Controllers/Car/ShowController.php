@@ -6,15 +6,15 @@ use App\Http\Controllers\Controller;
 use App\Models\Car;
 use Illuminate\View\View;
 
-class IndexController extends Controller
+class ShowController extends Controller
 {
     /**
      * Handle the incoming request.
      */
-    public function __invoke() : View
+    public function __invoke(Car $car) : View
     {
-        return view('cars.index', [
-            'cars' => Car::all(),
+        return view('cars.show', [
+            'car' => $car,
         ]);
     }
 }
