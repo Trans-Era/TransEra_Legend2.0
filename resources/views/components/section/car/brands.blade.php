@@ -11,13 +11,13 @@
           dark:text-white
         "
       >
-        Our Brands
+        Nos Marques
       </h2>
       <!--Subtitle-->
       <p
         class="font-sans font-light text-lg text-muted-500 dark:text-muted-400"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nous travaillons avec des marques exclusives afin de cibler une clientèle haut de gamme. Voici quelques-unes d'entre elles :
       </p>
     </div>
 

@@ -63,7 +63,7 @@
                 	c9.5,2.2,19.6,3.4,30.4,3.4c1.3,0,2.6,0,3.9-0.1c0.3,0,0.7,0,1,0C391.2,360.7,392.4,360.6,393.5,360.6z"></path>
                 </svg>
               </div>
-              <span class="text-2xl">Finity</span>
+              <span class="text-2xl">TransEra Legend</span>
             </a>
 
             <!-- Hamburger -->
