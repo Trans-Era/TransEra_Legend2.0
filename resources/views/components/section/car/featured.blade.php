@@ -58,7 +58,7 @@
     >
       <!--Grid item-->
       @foreach ($cars as $car)
-      <a href="{{ route('cars.index', $car->slug) }}">
+      <a href="{{ route('cars.show', $car->slug) }}">
       <div class="relative group">
         <div class="flex items-center gap-4 mb-4">
           <div
