@@ -25,7 +25,7 @@
     </h2>
     <!--Subtitle-->
     <p class="font-sans font-light text-lg text-muted-500 dark:text-muted-400">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Torquatus:
+      -descriptionInteriorPrincipal- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Torquatus:
       Prorsus, inquit, assentior.
     </p>
   </div>
@@ -53,20 +53,20 @@
     <div class="grid grid-cols-2 gap-6">
       <div>
         <h4 class="font-medium text-lg text-muted-800 dark:text-muted-100">
-          Parametric front LEDs
+          -descriptionInteriorname1-
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quantum
+          -descriptionInterior1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quantum
           Aristoxeni ingenium consumptum videmus in musicis? Quid affers, cur
           Thorius, cur Caius Postumius, cur omnium horum magister
         </p>
       </div>
       <div>
         <h4 class="font-medium text-lg text-muted-800 dark:text-muted-100">
-          Parametric front LEDs
+          -descriptionInteriorname2-
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quantum
+          -descriptionInterior2- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quantum
           Aristoxeni ingenium consumptum videmus in musicis? Quid affers, cur
           Thorius, cur Caius Postumius, cur omnium horum magister
         </p>

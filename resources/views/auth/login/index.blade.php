@@ -323,7 +323,20 @@
                   max-w
                 "
               >
-                <span>Don't have an account?</span>
+                <a 
+                  href="{{ route('register.index') }}" 
+                  class="
+                    font-medium
+                    text-primary-600
+                    hover:text-primary-500
+                    focus:outline-none focus:underline
+                    transition
+                    ease-in-out
+                    duration-150
+                  "
+                >
+                  Don't have an account ?
+                </a>
               </p>
             </div>
           </div>

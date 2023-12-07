@@ -18,10 +18,6 @@
         <x-car.design />
         <!--Interior--> 
         <x-car.interior />
-        <!--Options-->
-        <x-car.options />
-        <!--Technology-->
-        <x-car.technology />
         <!--CTA-->
         <x-car.cta />
       </div>

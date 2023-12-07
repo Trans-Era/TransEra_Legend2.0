@@ -35,7 +35,7 @@
         data-tab="cash"
         @click.prevent="toggleTabs($event)"
       >
-        Cash
+        Jour
       </a>
       <a
         class="
@@ -53,7 +53,7 @@
         data-tab="lease"
         @click.prevent="toggleTabs($event)"
       >
-        Lease
+        Semaine
       </a>
       <a
         class="
@@ -71,7 +71,7 @@
         :class="activeTab === 'loan'? 'text-muted-800 dark:text-muted-100' : 'text-muted-400'"
         @click.prevent="toggleTabs($event)"
       >
-        Loan
+        Mois
       </a>
       <span
         class="
@@ -105,39 +105,6 @@
       <x-car.purchase.lease />
       <!--Loan-->
       <x-car.purchase.loan />
-
-      <!--Button-->
-      <a
-        href="#"
-        class="
-          relative
-          font-sans font-normal
-          inline-flex
-          items-center
-          justify-center
-          leading-5
-          no-underline
-          mt-6
-          w-full
-          space-x-1
-          text-white
-          bg-muted-800
-          dark:bg-muted-1000
-          h-12
-          px-5
-          py-3
-          text-base
-          hover:bg-muted-700
-          dark:hover:bg-muted-800
-          hover:shadow-xl hover:shadow-muted-300/20
-          dark:hover:shadow-muted-900/20
-          tw-accessibility
-          transition-all
-          duration-300
-        "
-      >
-        Purchase this version
-      </a>
     </div>
   </div>
 </div>

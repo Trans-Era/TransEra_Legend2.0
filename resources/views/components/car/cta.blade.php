@@ -34,7 +34,7 @@
             dark:text-white
           "
         >
-          Did you know?
+          Passer à l'action ?
         </h2>
         <!--Subtitle-->
         <p
@@ -47,8 +47,7 @@
             dark:text-muted-400
           "
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum
-          Torquatus: Prorsus, inquit, assentior.
+          Vous pouvez demander des informations ou pour réserver ce véhicule, pour cela n'hésitez pas à nous contacter.
         </p>
         <!--Button-->
         <a
@@ -79,11 +78,11 @@
             duration-300
           "
         >
-          Schedule a test drive
+          Nous contacter
         </a>
         <!--Link-->
         <div class="text-center mt-5">
-          <a href="#" class="font-sans font-medium text-sm text-muted-400 underline-offset-4 hover:underline hover:text-primary-500">Download full specs</a>
+          <a href="-lienVoiture-" class="font-sans font-medium text-sm text-muted-400 underline-offset-4 hover:underline hover:text-primary-500">Plus d'infos sur la voiture</a>
         </div>
       </div>
     </div>

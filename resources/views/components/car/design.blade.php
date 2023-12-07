@@ -15,7 +15,7 @@
     </h2>
     <!--Subtitle-->
     <p class="font-sans font-light text-lg text-muted-500 dark:text-muted-400">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Torquatus:
+      -descriptionDesign- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Torquatus:
       Prorsus, inquit, assentior.
     </p>
   </div>
@@ -35,7 +35,7 @@
           data-icon="ph:wave-square-duotone"
         ></i>
         <h4 class="font-medium text-muted-800 dark:text-muted-100">
-          Sharp design
+          Design Sportif
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -47,7 +47,7 @@
           data-icon="ph:headlights-duotone"
         ></i>
         <h4 class="font-medium text-muted-800 dark:text-muted-100">
-          LED lights
+          Technologie LED
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -59,75 +59,11 @@
           data-icon="ph:gauge-duotone"
         ></i>
         <h4 class="font-medium text-muted-800 dark:text-muted-100">
-          Digital cockpit
+          Cockpit digital
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-      </div>
-    </div>
-    <!--Side feature-->
-    <div class="grid grid-cols-12 my-14 xs:space-y-6">
-      <div class="col-span-12 md:col-span-5 place-items-start">
-        <div class="h-full flex items-center">
-          <div class="space-y-2">
-            <h4 class="font-medium text-3xl text-muted-800 dark:text-muted-100">
-              LED Signature
-            </h4>
-            <p class="text-sm text-muted-500 dark:text-muted-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="relative col-span-12 md:col-span-7 place-items-end">
-        <div class="w-full flex items-end">
-          <img
-            class="h-64 w-64 ml-auto"
-            src="/img/vehicles/details/2.jpg"
-            alt="Vehicle image"
-          />
-          <img
-            class="
-              absolute
-              -bottom-8
-              right-36
-              h-36
-              w-36
-              border-8
-              bg-primary-600
-              border-muted-100
-            "
-            src="/img/vehicles/details/6.png"
-            alt="Vehicle image"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="grid grid-cols-12 my-14 xs:space-y-10">
-      <div class="relative col-span-12 md:col-span-7 place-items-end">
-        <img
-          class="h-64 w-64"
-          src="/img/vehicles/details/4.jpg"
-          alt="Vehicle image"
-        />
-        <img
-          class="absolute -bottom-8 left-36 h-36 w-36 border-8 border-muted-100"
-          src="/img/vehicles/details/7.png"
-          alt="Vehicle image"
-        />
-      </div>
-      <div class="col-span-12 md:col-span-5 place-items-start">
-        <div class="h-full flex items-center">
-          <div class="space-y-2">
-            <h4 class="font-medium text-3xl text-muted-800 dark:text-muted-100">
-              Parametric front LEDs
-            </h4>
-            <p class="text-sm text-muted-500 dark:text-muted-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
