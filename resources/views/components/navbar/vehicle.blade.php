@@ -22,7 +22,7 @@
     <div class="w-full max-w-7xl mx-auto flex flex-col md:flex-row md:items-center py-2 px-4">
       <div class="flex items-center gap-2 text-muted-500 dark:text-white">
         <div class="h-12 w-12"><x-vector.logos.mercedes /></div>
-        <span class="font-sans font-light text-xl">-marque- -modele-</span>
+        <span class="font-sans font-light text-xl">{{ $car->brand->name }} {{ $car->modele->name }}</span>
       </div>
       <div class="flex items-center gap-4 md:ml-auto">
         <div class="font-sans text-right">
@@ -35,7 +35,7 @@
               dark:text-muted-100
             "
           >
-            -prix/jour- €
+          {{ $car->price }} €
           </span>
         </div>
         <a
@@ -114,7 +114,7 @@
       </div>
       <div class="flex items-center md:ml-auto xs:w-full">
         <a
-          href="/inventory.html"
+          href="{{ url()->previous() }}"
           class="
             group
             flex

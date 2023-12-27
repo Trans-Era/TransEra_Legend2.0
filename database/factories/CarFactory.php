@@ -17,17 +17,18 @@ class CarFactory extends Factory
      */
     public function definition(): array
     {
-        $title = fake()->sentence(5);
-        $slug = Str::slug($title, '-');
-
         return [
-            'name' => $title,
+            'name' => fake()->sentence(5),
             'description' => fake()->text(),
-            'slug' => $slug,
+            'slug' => Str::slug(fake()->sentence(5), '-'),
             'brand_id' => Brand::factory(),
             'photo' => 'img/car/1/profil.webp',
             'thumbnail' => 'img/car/1/thumbnail.webp',
             'year' => fake()->numberBetween(2000, 2023),
+            'power' =>  fake()->numberBetween(60, 500),
+            'couple' =>  fake()->numberBetween(200, 600),
+            'timeAcc' =>  fake()->numberBetween(3, 5),
+            'price' => fake()->numberBetween(250, 500),
         ];
     }
 }

@@ -41,8 +41,8 @@ module.exports = {
                 1000: '#0f0d0c',
             },
             muted: {
-                ...colors.slate,
-                1000: '#0a101f',
+                ...colors.zinc,
+                1000: '#101012',
             },
             primary: colors.rose,
             info: colors.sky,

@@ -40,7 +40,7 @@
                 dark:text-white
               "
             >
-              -Marque- -Modele-
+            {{ $car->brand->name }} {{ $car->modele->name }}
             </h1>
             <p
               class="
@@ -51,7 +51,7 @@
                 mx-auto
               "
             >
-              -Type du véhicule-
+            {{ $car->type->name }}
             </p>
             <div
               class="
@@ -66,9 +66,7 @@
               "
             >
               <p>
-                -Description1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utram
-                tandem linguam nescio? Vide, quantum, inquam, fallare, Torquate.
-                Dic in quovis.
+                {{ $car->description }}
               </p>
             </div>
             <div class="relative w-full max-w-sm ptablet:mx-auto flex">
@@ -91,7 +89,7 @@
                       dark:text-muted-50
                     "
                   >
-                    -chv-
+                  {{ $car->power }}
                     <small
                       class="font-normal text-muted-500 dark:text-muted-400"
                     >
@@ -129,7 +127,7 @@
                       dark:text-muted-50
                     "
                   >
-                    -c-
+                  {{ $car->couple }}
                     <small
                       class="font-normal text-muted-500 dark:text-muted-400"
                     >
@@ -167,7 +165,7 @@
                       dark:text-muted-50
                     "
                   >
-                    -tp- 
+                  {{ $car->timeAcc }}
                     <small
                       class="font-normal text-muted-500 dark:text-muted-400"
                     >
@@ -230,8 +228,8 @@
         <div class="w-full ltablet:w-3/5 lg:w-3/5">
           <img
             class="block w-full max-w-xl ltablet:max-w-3xl lg:max-w-3xl mx-auto ptablet:mt-8"
-            src="/img/vehicles/grid/12.png"
-            alt="Vehicle image"
+            src="{{ asset($car->thumbnail) }}"
+            alt="{{ $car->name }}"
           />
         </div>
       </div>
@@ -290,7 +288,7 @@
               <span
                 class="font-semibold text-lg text-muted-800 dark:text-muted-100"
               >
-                -prix/jour-
+              {{ $car->price }}
               </span>
               <span class="text-sm text-muted-500 dark:text-muted-400">
                 prix/jour
