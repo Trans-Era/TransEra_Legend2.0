@@ -120,11 +120,11 @@
             @for ($i = 0; $i < count($cars); $i++)
                 <div class="flex gap-4 p-5" x-show="swiper.realIndex === {{ $i }}">
                     <div class="h-12 w-12 min-w-[3rem] flex items-center justify-center">
+                        Logo
                     </div>
                     <div>
                         <h3 class="font-sans font-semibold text-lg">{{ $cars[$i]->brand->name }} {{ $cars[$i]->name }}</h3>
-                        <p class="font-sans text-xs">Deep Gray · 19’’ Sport Wheels · LED</p>
-                        <p class="font-sans text-xs mt-1">
+                        <p class="font-sans text-xs mt-2">
                         {{ $cars[$i]->description }}
                         </p>
                     </div>
@@ -167,62 +167,19 @@
                 </button>
                 </div>
             </div>
-            <div class="flex gap-4 ml-auto pr-4" x-show="swiper.realIndex === 0">
+            @for ($i = 0; $i < count($cars); $i++)
+            <div class="flex gap-4 ml-auto pr-4" x-show="swiper.realIndex === {{ $i }}">
                 <div>
-                <span class="font-sans text-xs">120mph</span>
+                <span class="font-sans text-xs">{{ $cars[$i]->power }}ch</span>
                 </div>
                 <div>
-                <span class="font-sans text-xs">Hybrid</span>
+                <span class="font-sans text-xs">{{ $cars[$i]->couple }}nm</span>
                 </div>
                 <div>
-                <span class="font-sans text-xs">450mi</span>
-                </div>
-            </div>
-            <div class="flex gap-4 ml-auto pr-4" x-show="swiper.realIndex === 1">
-                <div>
-                <span class="font-sans text-xs">160mph</span>
-                </div>
-                <div>
-                <span class="font-sans text-xs">Hybrid</span>
-                </div>
-                <div>
-                <span class="font-sans text-xs">350mi</span>
+                <span class="font-sans text-xs">{{ $cars[$i]->timeAcc }}s</span>
                 </div>
             </div>
-            <div class="flex gap-4 ml-auto pr-4" x-show="swiper.realIndex === 2">
-                <div>
-                <span class="font-sans text-xs">160mph</span>
-                </div>
-                <div>
-                <span class="font-sans text-xs">Hybrid</span>
-                </div>
-                <div>
-                <span class="font-sans text-xs">350mi</span>
-                </div>
-            </div>
-
-            <div class="flex gap-4 ml-auto pr-4" x-show="swiper.realIndex === 3">
-                <div>
-                <span class="font-sans text-xs">160mph</span>
-                </div>
-                <div>
-                <span class="font-sans text-xs">Hybrid</span>
-                </div>
-                <div>
-                <span class="font-sans text-xs">350mi</span>
-                </div>
-            </div>
-            <div class="flex gap-4 ml-auto pr-4" x-show="swiper.realIndex === 4">
-                <div>
-                <span class="font-sans text-xs">160mph</span>
-                </div>
-                <div>
-                <span class="font-sans text-xs">Hybrid</span>
-                </div>
-                <div>
-                <span class="font-sans text-xs">350mi</span>
-                </div>
-            </div>
+            @endfor
             </div>
         </div>
         </div>

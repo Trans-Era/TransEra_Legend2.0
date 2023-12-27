@@ -8,7 +8,7 @@ class CguController extends Controller
 {
     public function __invoke(): View
     {
-        return view('services.cgu');
+        return view('cgu.index');
     }
 }
 

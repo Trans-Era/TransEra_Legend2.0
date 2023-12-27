@@ -77,7 +77,7 @@
                   dark:text-muted-100
                 "
               >
-                -prixVoiture-€
+                {{ $car->price }}€
               </span>
             </li>
             <li class="flex items-center justify-between">
@@ -150,7 +150,7 @@
                   dark:text-muted-100
                 "
               >
-                -prixVoiture-€¨(+30%)
+              {{ $car->getWeekEndDayPrice() }}€
               </span>
             </li>
             <li class="flex items-center justify-between">

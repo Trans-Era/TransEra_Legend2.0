@@ -16,7 +16,13 @@ return new class extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->string('slug');
+            $table->foreignId('modele_id')->constrained()->cascadeOnDelete();
             $table->foreignId('brand_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('type_id')->constrained()->cascadeOnDelete();
+            $table->integer('power');
+            $table->integer('couple');
+            $table->decimal('timeAcc');
+            $table->decimal('price');
             $table->string('photo');
             $table->string('thumbnail');
             $table->integer('year');

@@ -83,7 +83,7 @@
                 dark:text-muted-50
               "
             >
-                Audi RS-8
+                {{ $car->modele->name }}
             </h3>
             <p class="font-sans text-xs text-muted-400">
               Available for local delivery
@@ -97,7 +97,7 @@
                 dark:text-muted-50
               "
             >
-              $87,000
+              {{ $car->price }}€
             </span>
           </div>
         </div>
@@ -128,13 +128,13 @@
                   dark:text-muted-50
                 "
               >
-                1.4
+              {{ $car->timeAcc }}
                 <small class="font-normal text-muted-500 dark:text-muted-400">
                   s
                 </small>
               </span>
               <small class="block font-sans text-muted-500 dark:text-muted-400">
-                0-60mph
+                0-100
               </small>
             </div>
           </div>
@@ -148,13 +148,13 @@
                   dark:text-muted-50
                 "
               >
-                165
+              {{ $car->couple }}
                 <small class="font-normal text-muted-500 dark:text-muted-400">
-                  mph
+                  nm
                 </small>
               </span>
               <small class="block font-sans text-muted-500 dark:text-muted-400">
-                Top speed
+                Couple
               </small>
             </div>
           </div>
@@ -168,13 +168,13 @@
                   dark:text-muted-50
                 "
               >
-                279
+              {{ $car->power }}
                 <small class="font-normal text-muted-500 dark:text-muted-400">
-                  mi
+                  ch
                 </small>
               </span>
               <small class="block font-sans text-muted-500 dark:text-muted-400">
-                Autonomy
+                Puissance
               </small>
             </div>
           </div>
@@ -206,7 +206,7 @@
             duration-300
           "
         >
-          View Details
+          Voir plus
         </div>
       </div>
       </a>
@@ -215,7 +215,7 @@
     <!--CTA-->
     <div class="flex items-center justify-center py-10">
       <a
-        href="/inventory.html"
+        href="{{ route('cars.index') }}"
         class="
           relative
           font-sans font-normal
@@ -240,7 +240,7 @@
           duration-300
         "
       >
-        Explore Inventory
+        Voir l'inventaire
       </a>
     </div>
   </div>

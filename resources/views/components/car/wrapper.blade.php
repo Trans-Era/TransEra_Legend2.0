@@ -15,17 +15,17 @@
       <!--Column-->
       <div class="w-full ltablet:w-7/12 lg:w-8/12">
         <!--Design-->
-        <x-car.design />
+        <x-car.design :car='$car'/>
         <!--Interior--> 
-        <x-car.interior />
+        <x-car.interior :car='$car'/>
         <!--CTA-->
-        <x-car.cta />
+        <x-car.cta :car='$car'/>
       </div>
       <!--Column-->
       <div class="w-full ltablet:w-5/12 lg:w-4/12">
         <div class="h-full pt-10">
           <!--Purchase vehicle-->
-          <x-car.purchase />
+          <x-car.purchase :car='$car'/>
         </div>
       </div>
     </div>

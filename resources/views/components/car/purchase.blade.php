@@ -100,11 +100,11 @@
     <!--Content-->
     <div class="w-full pt-6">
       <!--Cash-->
-      <x-car.purchase.cash />
+      <x-car.purchase.cash :car='$car'/>
       <!--Lease-->
-      <x-car.purchase.lease />
+      <x-car.purchase.lease :car='$car'/>
       <!--Loan-->
-      <x-car.purchase.loan />
+      <x-car.purchase.loan :car='$car'/>
     </div>
   </div>
 </div>

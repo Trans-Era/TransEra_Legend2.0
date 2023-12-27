@@ -691,7 +691,7 @@
                 </div>
               </li>
               <li x-on:mouseover="megamenuOpened = false, openedMegamenu = ''">
-                <a href="/inventory.html" class="
+                <a href="{{ route('cars.index') }}" class="
                     block
                     text-base
                     font-sans font-light
