@@ -17,7 +17,7 @@
             sm:justify-between
           ">
           <div class="flex justify-between items-center w-full lg:w-1/5">
-            <a href="/home.html" class="group flex font-sans font-light items-center gap-4 text-white">
+            <a href="{{ url('/') }}" class="group flex font-sans font-light items-center gap-4 text-white">
               <div class="
                   h-14
                   w-14
@@ -874,7 +874,8 @@
                 </span>
               </label>
             </div>
-            <a href="/dashboard-bookmarks.html" class="
+            @if(Auth::check())
+              <a href="/dashboard.html" class="
                 relative
                 font-sans font-normal
                 inline-flex
@@ -894,32 +895,34 @@
                 tw-accessibility
                 transition-all
                 duration-300
-              ">
-              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="lucide:heart" class="iconify w-4 h-4 iconify--lucide"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78l-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8l8-8c2.67-2.72 2.54-6.3.42-8.42z"></path></svg>
-            </a>
-            <a href="/dashboard.html" class="
-                relative
-                font-sans font-normal
-                inline-flex
-                items-center
-                justify-center
-                leading-5
-                no-underline
-                space-x-1
-                text-white
-                bg-muted-800/30
-                dark:bg-muted-900
-                h-10
-                w-10
-                text-base
-                hover:bg-muted-700
-                dark:hover:bg-muted-1000
-                tw-accessibility
-                transition-all
-                duration-300
-              ">
-              <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="lucide:user" class="iconify w-4 h-4 iconify--lucide"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></g></svg>
-            </a>
+                ">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="lucide:user" class="iconify w-4 h-4 iconify--lucide"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></g></svg>
+              </a>
+            @else
+                <a href="{{ route('login.index') }}" class="
+                  relative
+                  font-sans font-normal
+                  inline-flex
+                  items-center
+                  justify-center
+                  leading-5
+                  no-underline
+                  space-x-1
+                  text-white
+                  bg-muted-800/30
+                  dark:bg-muted-900
+                  h-10
+                  w-10
+                  text-base
+                  hover:bg-muted-700
+                  dark:hover:bg-muted-1000
+                  tw-accessibility
+                  transition-all
+                  duration-300
+                ">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="lucide:user" class="iconify w-4 h-4 iconify--lucide"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></g></svg>
+              </a>
+            @endif
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@
                 dark:text-white
               "
             >
-              Hyundai Tucson
+              -Marque- -Modele-
             </h1>
             <p
               class="
@@ -51,7 +51,7 @@
                 mx-auto
               "
             >
-              Compact hybrid SUV
+              -Type du véhicule-
             </p>
             <div
               class="
@@ -66,7 +66,7 @@
               "
             >
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utram
+                -Description1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utram
                 tandem linguam nescio? Vide, quantum, inquam, fallare, Torquate.
                 Dic in quovis.
               </p>
@@ -91,7 +91,83 @@
                       dark:text-muted-50
                     "
                   >
-                    4.4
+                    -chv-
+                    <small
+                      class="font-normal text-muted-500 dark:text-muted-400"
+                    >
+                      chv
+                    </small>
+                  </span>
+                  <small
+                    class="
+                      block
+                      font-sans
+                      text-sm text-muted-500
+                      dark:text-muted-400
+                    "
+                  >
+                    Puissance
+                  </small>
+                </div>
+              </div>
+              <div
+                class="
+                  flex-1 flex
+                  items-center
+                  px-4
+                  group-hover:opacity-0
+                  transition-opacity
+                  duration-300
+                "
+              >
+                <div class="text-xl">
+                  <span
+                    class="
+                      block
+                      font-sans font-semibold
+                      text-muted-800
+                      dark:text-muted-50
+                    "
+                  >
+                    -c-
+                    <small
+                      class="font-normal text-muted-500 dark:text-muted-400"
+                    >
+                      nm
+                    </small>
+                  </span>
+                  <small
+                    class="
+                      block
+                      font-sans
+                      text-sm text-muted-500
+                      dark:text-muted-400
+                    "
+                  >
+                    Couple
+                  </small>
+                </div>
+              </div>
+              <div
+                class="
+                  flex-1 flex
+                  items-center
+                  px-4
+                  group-hover:opacity-0
+                  transition-opacity
+                  duration-300
+                "
+              >
+                <div class="text-xl">
+                  <span
+                    class="
+                      block
+                      font-sans font-semibold
+                      text-muted-800
+                      dark:text-muted-50
+                    "
+                  >
+                    -tp- 
                     <small
                       class="font-normal text-muted-500 dark:text-muted-400"
                     >
@@ -106,83 +182,7 @@
                       dark:text-muted-400
                     "
                   >
-                    0-60mph
-                  </small>
-                </div>
-              </div>
-              <div
-                class="
-                  flex-1 flex
-                  items-center
-                  px-4
-                  group-hover:opacity-0
-                  transition-opacity
-                  duration-300
-                "
-              >
-                <div class="text-xl">
-                  <span
-                    class="
-                      block
-                      font-sans font-semibold
-                      text-muted-800
-                      dark:text-muted-50
-                    "
-                  >
-                    135
-                    <small
-                      class="font-normal text-muted-500 dark:text-muted-400"
-                    >
-                      mph
-                    </small>
-                  </span>
-                  <small
-                    class="
-                      block
-                      font-sans
-                      text-sm text-muted-500
-                      dark:text-muted-400
-                    "
-                  >
-                    Top speed
-                  </small>
-                </div>
-              </div>
-              <div
-                class="
-                  flex-1 flex
-                  items-center
-                  px-4
-                  group-hover:opacity-0
-                  transition-opacity
-                  duration-300
-                "
-              >
-                <div class="text-xl">
-                  <span
-                    class="
-                      block
-                      font-sans font-semibold
-                      text-muted-800
-                      dark:text-muted-50
-                    "
-                  >
-                    389
-                    <small
-                      class="font-normal text-muted-500 dark:text-muted-400"
-                    >
-                      mi
-                    </small>
-                  </span>
-                  <small
-                    class="
-                      block
-                      font-sans
-                      text-sm text-muted-500
-                      dark:text-muted-400
-                    "
-                  >
-                    Autonomy
+                    0 à 100 km/h
                   </small>
                 </div>
               </div>
@@ -199,10 +199,10 @@
                   "
                 >
                   <li class="flex items-center gap-2">
-                    <span>Midnight Silver Metallic Paint</span>
+                    <span>-info1-</span>
                   </li>
                   <li class="flex items-center gap-2">
-                    <span>20’’ Überturbine Wheels</span>
+                    <span>-info2-</span>
                   </li>
                 </ul>
               </div>
@@ -217,10 +217,10 @@
                   "
                 >
                   <li class="flex items-center gap-2">
-                    <span>Performance Upgrade</span>
+                    <span>-info3-</span>
                   </li>
                   <li class="flex items-center gap-2">
-                    <span>Carbon Fiber Spoiler</span>
+                    <span>-info4-</span>
                   </li>
                 </ul>
               </div>
@@ -290,16 +290,16 @@
               <span
                 class="font-semibold text-lg text-muted-800 dark:text-muted-100"
               >
-                $39,000
+                -prix/jour-
               </span>
               <span class="text-sm text-muted-500 dark:text-muted-400">
-                purchase price
+                prix/jour
               </span>
             </span>
           </div>
           <div class="flex-1 flex items-center gap-2 px-4">
             <span class="font-sans text-sm text-muted-500 dark:text-muted-400">
-              Click to view other options
+              Cliquez pour plus d'infos !
             </span>
           </div>
         </div>

@@ -22,7 +22,7 @@
     <div class="w-full max-w-7xl mx-auto flex flex-col md:flex-row md:items-center py-2 px-4">
       <div class="flex items-center gap-2 text-muted-500 dark:text-white">
         <div class="h-12 w-12"><x-vector.logos.mercedes /></div>
-        <span class="font-sans font-light text-xl">Hyundai Tucson</span>
+        <span class="font-sans font-light text-xl">-marque- -modele-</span>
       </div>
       <div class="flex items-center gap-4 md:ml-auto">
         <div class="font-sans text-right">
@@ -35,7 +35,7 @@
               dark:text-muted-100
             "
           >
-            $39,000
+            -prix/jour- €
           </span>
         </div>
         <a
@@ -68,7 +68,7 @@
             duration-300
           "
         >
-          Book a Test Drive
+          Nous contacter
         </a>
       </div>
     </div>
@@ -93,7 +93,7 @@
           :class="activeSection === 'overview' ? 'border-primary-500 text-muted-800 dark:text-muted-100' : 'border-transparent text-muted-400 dark:text-muted-500'"
           @click="activeSection = 'overview'"
         >
-          Overview
+          Aperçu
         </a>
         <a
           href="#vehicle-design"
@@ -109,23 +109,7 @@
           :class="activeSection === 'interior' ? 'border-primary-500 text-muted-800 dark:text-muted-100' : 'border-transparent text-muted-400 dark:text-muted-500'"
           @click="activeSection = 'interior'"
         >
-          Interior
-        </a>
-        <a
-          href="#vehicle-options"
-          class="scroll-link flex items-center justify-center py-4 border-b-2"
-          :class="activeSection === 'options' ? 'border-primary-500 text-muted-800 dark:text-muted-100' : 'border-transparent text-muted-400 dark:text-muted-500'"
-          @click="activeSection = 'options'"
-        >
-          Options
-        </a>
-        <a
-          href="#vehicle-technology"
-          class="scroll-link flex items-center justify-center py-4 border-b-2"
-          :class="activeSection === 'technology' ? 'border-primary-500 text-muted-800 dark:text-muted-100' : 'border-transparent text-muted-400 dark:text-muted-500'"
-          @click="activeSection = 'technology'"
-        >
-          Technology
+          Intérieur
         </a>
       </div>
       <div class="flex items-center md:ml-auto xs:w-full">
@@ -155,20 +139,11 @@
             "
             data-icon="lucide:arrow-left"
           ></i>
-          <span>Back to inventory</span>
+          <span>Retour à l'inventaire</span>
         </a>
         <div class="h-10 w-10 flex items-center justify-center ml-auto md:ml-4">
           <!--Dark mode-->
           <x-theme.toggler-base />
-        </div>
-        <div class="h-10 w-10 flex items-center justify-center">
-          <!--Like-->
-          <button class="h-8 w-8 cursor-pointer tw-accessibility">
-            <i
-              class="iconify w-4 h-4 stroke-current fill-current text-rose-500"
-              data-icon="lucide:heart"
-            ></i>
-          </button>
         </div>
       </div>
     </div>
