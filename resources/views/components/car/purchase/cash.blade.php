@@ -150,7 +150,7 @@
                   dark:text-muted-100
                 "
               >
-              {{ $car->getWeekEndDayPrice() }}€
+                {{ $car->getWeekEndDayPrice() }}€
               </span>
             </li>
             <li class="flex items-center justify-between">

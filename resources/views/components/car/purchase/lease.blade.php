@@ -16,7 +16,7 @@
   >
     <div class="font-sans">
       <h4 class="font-semibold text-muted-800 dark:text-muted-200">Tarifs</h4>
-      <p class="text-sm text-muted-500">Location du samedi et dimanche, qui est plus avantageux que si vous prenez les jours séparement</p>
+      <p class="text-sm text-muted-500">Location du samedi au lundi, qui est plus avantageux que si vous prenez les jours séparement</p>
     </div>
   </div>
   <!--Pricing-->
@@ -26,7 +26,7 @@
   >
     <div class="font-sans">
       <h4 class="font-semibold text-muted-800 dark:text-muted-200">Pack 3 journées</h4>
-      <p class="text-sm text-muted-500">Ce pack n'est pas compatible avec le weekend (Samedi et dimanche), il vous permet d'avoir une remise de 10%.</p>
+      <p class="text-sm text-muted-500">Ce pack n'est pas compatible avec le weekend (Samedi et dimanche), il vous permet d'avoir une remise de 20%.</p>
     </div>
   </div>
   <!--Cash options-->
@@ -87,7 +87,7 @@
                   dark:text-muted-100
                 "
               >
-                -prixVoiture- (+calcul)
+                {{ $car->getWeekPrice() }}€
               </span>
             </li>
             <li class="flex items-center justify-between">
@@ -160,7 +160,7 @@
                   dark:text-muted-100
                 "
               >
-                -prixVoiture-€ (+calcul)
+                {{ $car->getWeekEndPrice() }}€
               </span>
             </li>
             <li class="flex items-center justify-between">
@@ -233,7 +233,7 @@
                   dark:text-muted-100
                 "
               >
-                -prixVoiture-€ (+calcul)
+              {{ $car->get3dayPrice() }}€
               </span>
             </li>
             <li class="flex items-center justify-between">

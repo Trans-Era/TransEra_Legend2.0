@@ -258,28 +258,6 @@
                   Notre flotte
                 </a>
               </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  Voiture disponible
-                </a>
-              </li>
-              <li>
-                <a href="#" class="
-                    text-sm
-                    underline-offset-4
-                    text-muted-300/60
-                    hover:text-white hover:underline
-                    dark:text-muted-400 dark:hover:text-muted-100
-                  ">
-                  Nouvelle réservation
-                </a>
-              </li>
             </ul>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -295,7 +273,7 @@
             </h2>
             <ul class="font-sans space-y-2 mb-10">
               <li>
-                <a href="#" class="
+                <a href="{{ route('error.index') }}" class="
                     text-sm
                     underline-offset-4
                     text-muted-300/60
@@ -306,7 +284,7 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="
+                <a href="{{ route('error.index') }}" class="
                     text-sm
                     underline-offset-4
                     text-muted-300/60
@@ -317,7 +295,7 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="
+                <a href="{{ route('cgu.index') }}" class="
                     text-sm
                     underline-offset-4
                     text-muted-300/60
@@ -342,7 +320,7 @@
             </h2>
             <ul class="font-sans space-y-2 mb-10">
               <li>
-                <a href="#" class="
+                <a href="{{ route('about.index') }}" class="
                     text-sm
                     underline-offset-4
                     text-muted-300/60
@@ -353,7 +331,7 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="
+                <a href="{{ route('contact.index') }}" class="
                     text-sm
                     underline-offset-4
                     text-muted-300/60
@@ -364,7 +342,7 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="
+                <a href="{{ route('error.index') }}" class="
                     text-sm
                     underline-offset-4
                     text-muted-300/60
@@ -440,7 +418,7 @@
             <span class="text-xl text-muted-100">TransEra Legend</span>
           </a>
           <p class="text-sm text-muted-400 sm:ml-6 sm:mt-0 mt-4">
-            © 2022-2023 TransEra — All Rights Reserved.
+            © TransEra — All Rights Reserved.
           </p>
           <span class="
               inline-flex

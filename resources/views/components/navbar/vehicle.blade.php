@@ -114,7 +114,7 @@
       </div>
       <div class="flex items-center md:ml-auto xs:w-full">
         <a
-          href="{{ url()->previous() }}"
+          href="{{ route('cars.index') }}"
           class="
             group
             flex

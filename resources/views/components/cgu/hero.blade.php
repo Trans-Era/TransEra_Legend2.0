@@ -23,7 +23,7 @@
             dark:text-white
           "
         >
-          Services
+          CGU
         </h1>
         <p
           class="
@@ -34,8 +34,8 @@
             mx-auto
           "
         >
-          Our inventory holds the finest cars you'll be able to find miles arund
-          you. Discover our wide vehicle selection.
+        Ici, vous trouverez les informations importantes qui résument le contrat de location. Cela vous informera et vous permettra de répondre à 
+        certaines questions que vous pourriez avoir.
         </p>
       </div>
     </div>

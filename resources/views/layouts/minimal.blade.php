@@ -17,5 +17,7 @@
     </main>
 
     <x-layouts.footer />
+
+    <script type="module" src=@vite(['resources/js/main.js'])></script>
   </body>
 </html>
