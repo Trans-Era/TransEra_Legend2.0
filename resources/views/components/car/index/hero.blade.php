@@ -23,7 +23,7 @@
             dark:text-white
           "
         >
-          Inventory
+          Notre flotte
         </h1>
         <p
           class="
@@ -34,8 +34,8 @@
             mx-auto
           "
         >
-          Our inventory holds the finest cars you'll be able to find miles arund
-          you. Discover our wide vehicle selection.
+          Notre flotte contient les plus belles voitures que vous pourrez trouver. 
+          Découvrez notre vaste sélection de véhicules.
         </p>
       </div>
     </div>

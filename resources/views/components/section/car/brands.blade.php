@@ -25,7 +25,7 @@
     <div class="relative w-full max-w-6xl mx-auto py-10 grid grid-cols-2 ptablet:grid-cols-4 ltablet:grid-cols-5 lg:grid-cols-5 gap-10">
     @foreach($brands as $brand)
       <!--Grid item-->
-      <a href="#" class="group flex flex-col text-center">
+      <a class="group flex flex-col text-center">
         <div
           class="
             h-16

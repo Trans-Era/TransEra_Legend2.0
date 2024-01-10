@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Car;
+use App\Models\Brand;
+
 use Illuminate\View\View;
 
 class HomeController extends Controller
@@ -14,6 +16,7 @@ class HomeController extends Controller
     {
         return view('home.index', [
             'cars' => Car::all(),
+            'brands' => Brand::all(),
         ]);
     }
 }

@@ -12,25 +12,25 @@
         <!-- prettier-ignore -->
 
         <!--Site navbar-->
-        <x-navbar.static />
+        <x-navbar.static/>
 
         <main
         class="relative w-full transition-all duration-300 z-10"
         >
-        <!--Container-->
-        <div
-            class="
-            w-full
-            min-h-screen
-            mx-auto
-            bg-white
-            dark:bg-muted-900
-            "
-        >
+            <!--Container-->
+            <div
+                class="
+                w-full
+                min-h-screen
+                mx-auto
+                bg-white
+                dark:bg-muted-900
+                "
+            >
 
-            <!-- Renders the page body -->
-            {{ $slot }}
-        </div>
+                <!-- Renders the page body -->
+                {{ $slot }}
+            </div>
         </main>
 
         <!--Footer-->

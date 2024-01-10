@@ -22,7 +22,7 @@ class CarFactory extends Factory
             'description' => fake()->text(),
             'slug' => Str::slug(fake()->sentence(5), '-'),
             'brand_id' => Brand::factory(),
-            'photo' => 'img/car/1/profil.webp',
+            'photo' => 'img/car/1/bg1.webp',
             'thumbnail' => 'img/car/1/thumbnail.webp',
             'year' => fake()->numberBetween(2000, 2023),
             'power' =>  fake()->numberBetween(60, 500),

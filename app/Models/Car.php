@@ -31,6 +31,16 @@ class Car extends Model
         return $this->price * 1.3;
     }
 
+    public function getWeekEndPrice() : int
+    {
+        return $this->price * 3 *  1.05;
+    }
+
+    public function get3dayPrice() : int
+    {
+        return $this->price * 3 *  0.80;
+    }
+
     /**
      * Get the route key for the model.
      */

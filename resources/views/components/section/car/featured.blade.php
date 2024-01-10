@@ -195,7 +195,7 @@
             text-muted-500
             hover:text-white
             dark:bg-muted-800
-            dark:hover:bg-muted-700
+            dark:hover:bg-muted-700 ² ²
             dark:text-muted-100
             h-10
             px-5

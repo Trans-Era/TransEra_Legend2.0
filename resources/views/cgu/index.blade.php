@@ -1,4 +1,4 @@
 <x-app-layout>
-    <x-services.hero/>
-    <x-section.services-list/>
+    <x-cgu.hero/>
+    <x-section.cgu.cgu-list/>
 </x-app-layout>
