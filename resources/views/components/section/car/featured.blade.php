@@ -73,7 +73,7 @@
               dark:text-muted-200
             "
           >
-            icon
+            <img src="{{ $car->brand->icon }}" alt="{{ $car->brand->icon }}" />
           </div>
           <div class="leading-tight">
             <h3

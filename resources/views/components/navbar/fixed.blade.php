@@ -48,7 +48,7 @@
           >
             {{> vector/logos/logo}}
           </div>
-          <span class="text-2xl">Finity</span>
+          <span class="text-2xl">TransEra Legend</span>
         </a>
 
         <!-- Hamburger -->
@@ -267,7 +267,7 @@
         <div class="flex flex-col my-3 lg:hidden">
           <div class="flex items-center justify-center mb-4">
             <!--Dark mode-->
-            {{> theme/theme-toggler}}
+            <x-theme.toggler />
           </div>
           <a
             href="/signup.html"

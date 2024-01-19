@@ -23,7 +23,7 @@
       marginwidth="0"
       title="map"
       scrolling="no"
-      src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Los%20Angeles+(Css%20Ninja)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+      src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=49.6116,6.1319&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed"
       style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
     ></iframe>
   </div>
@@ -58,12 +58,12 @@
           font-medium
         "
       >
-        Reach us
+        Contact
       </h2>
       <p
         class="font-sans leading-tight mb-5 text-muted-500 dark:text-muted-400"
       >
-        Have any questions? Or you simply want to say hello? Use the form below.
+      Posez-nous votre question, nous y répondrons dans les plus brefs délais.
       </p>
       <input
         class="
@@ -84,7 +84,7 @@
           duration-300
           tw-accessibility
         "
-        placeholder="Email address"
+        placeholder="Votre adresse mail"
         type="email"
       />
       <textarea
@@ -108,7 +108,7 @@
           duration-300
           tw-accessibility
         "
-        placeholder="Message"
+        placeholder="Votre message"
       ></textarea>
       <button
         class="
@@ -128,10 +128,6 @@
       >
         Send Message
       </button>
-      <p class="font-sans text-xs text-muted-400 mt-3">
-        Someone from our team will respond as soon as possible. We won't share
-        your address with anyone.
-      </p>
     </div>
   </div>
 </section>
