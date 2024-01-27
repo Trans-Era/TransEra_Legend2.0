@@ -120,7 +120,7 @@
             @for ($i = 0; $i < count($cars); $i++)
                 <div class="flex gap-4 p-5" x-show="swiper.realIndex === {{ $i }}">
                     <div class="h-12 w-12 min-w-[3rem] flex items-center justify-center">
-                        Logo
+                        <img src="{{ $cars[$i]->brand->icon }}" alt="{{ $cars[$i]->brand->icon }}" />
                     </div>
                     <div>
                         <h3 class="font-sans font-semibold text-lg">{{ $cars[$i]->brand->name }} {{ $cars[$i]->name }}</h3>

@@ -51,7 +51,7 @@
         </p>
         <!--Button-->
         <a
-          href="https://cssninja.io/product/finity"
+          href=""
           class="
             relative
             font-sans font-normal
