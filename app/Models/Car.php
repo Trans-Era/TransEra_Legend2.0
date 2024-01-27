@@ -82,10 +82,10 @@ class Car extends Model
     }
 
     /**
-     * @return HasMany<Desscription>
+     * @return BelongsTo<Description>
      */
-    public function desscription(): HasMany
+    public function description(): BelongsTo
     {
-        return $this->hasMany(Car::class);
+        return $this->belongsTo(Description::class);
     }
 }

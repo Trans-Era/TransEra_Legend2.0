@@ -40,7 +40,7 @@
                 dark:text-white
               "
             >
-            {{ $car->brand->name }} {{ $car->modele->name }}
+            {{ $car->modele->name }}
             </h1>
             <p
               class="
@@ -197,7 +197,7 @@
                   "
                 >
                   <li class="flex items-center gap-2">
-                    <span>-info1-</span>
+                    <span>{{ $car->description->info1 }}</span>
                   </li>
                   <li class="flex items-center gap-2">
                     <span>-info2-</span>
