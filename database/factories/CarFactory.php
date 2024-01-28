@@ -19,7 +19,7 @@ class CarFactory extends Factory
     {
         return [
             'name' => fake()->sentence(5),
-            'description' => fake()->text(),
+            'desscription' => fake()->text(),
             'slug' => Str::slug(fake()->sentence(5), '-'),
             'brand_id' => Brand::factory(),
             'photo' => 'img/car/1/bg1.webp',
