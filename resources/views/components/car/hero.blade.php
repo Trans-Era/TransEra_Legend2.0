@@ -66,7 +66,7 @@
               "
             >
               <p>
-                {{ $car->description }}
+                {{ $car->desscription }}
               </p>
             </div>
             <div class="relative w-full max-w-sm ptablet:mx-auto flex">

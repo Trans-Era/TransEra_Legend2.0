@@ -19,6 +19,8 @@ return new class extends Migration
             $table->foreignId('modele_id')->constrained()->cascadeOnDelete();
             $table->foreignId('brand_id')->constrained()->cascadeOnDelete();
             $table->foreignId('type_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('description_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('photo_id')->constrained()->cascadeOnDelete();
             $table->integer('power');
             $table->integer('couple');
             $table->decimal('timeAcc');
