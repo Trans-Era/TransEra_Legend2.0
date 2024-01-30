@@ -9,6 +9,7 @@ use App\Models\Car;
 use App\Models\Modele;
 use App\Models\Type;
 use App\Models\User;
+use App\Models\Description;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -58,7 +59,7 @@ class DatabaseSeeder extends Seeder
         ]);
         Car::factory()->create([
             'name' => 'Mustang V8 GT 5.0',
-            'desscription' => 'Puissance et élégance réunies. Moteur 5.0L, 450 chevaux rugissants, design emblématique, confort moderne. Une légende sur roues.',
+            'description' => 'Puissance et élégance réunies. Moteur 5.0L, 450 chevaux rugissants, design emblématique, confort moderne. Une légende sur roues.',
             'power' => 450,
             'couple' => 529,
             'timeAcc' => 4.6,
@@ -72,7 +73,7 @@ class DatabaseSeeder extends Seeder
         ]);
         Car::factory()->create([
             'name' => 'Corvette C7',
-            'desscription' => 'Une symphonie de performance. Motorisation ronflante, allure racée, technologie de pointe. Une supercar qui repousse les limites de l excitation.',
+            'description' => 'Une symphonie de performance. Motorisation ronflante, allure racée, technologie de pointe. Une supercar qui repousse les limites de l excitation.',
             'power' => 466,
             'couple' => 640,
             'timeAcc' => 4.2,
@@ -86,7 +87,7 @@ class DatabaseSeeder extends Seeder
         ]);
         Car::factory()->create([
             'name' => 'Firebird GTA',
-            'desscription' => 'Puissance et style incarnés. Lignes aérodynamiques, allure agressive, intérieur retro-futuriste. Une légende indémodable, brûlant l asphalte avec une intensité inégalée.',
+            'description' => 'Puissance et style incarnés. Lignes aérodynamiques, allure agressive, intérieur retro-futuriste. Une légende indémodable, brûlant l asphalte avec une intensité inégalée.',
             'power' => 210,
             'couple' => 250,
             'timeAcc' => 10.1,
@@ -97,6 +98,11 @@ class DatabaseSeeder extends Seeder
             'modele_id' => 3,
             'brand_id' => 3,
             'type_id' => 3,
+        ]);
+        Description::factory()->create([
+            'name' =>'info1',
+            'value' =>'Voiture ancienne de renommée',
+            'car_id' => 1,
         ]);
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',
