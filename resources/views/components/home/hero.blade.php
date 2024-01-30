@@ -125,7 +125,7 @@
                     <div>
                         <h3 class="font-sans font-semibold text-lg">{{ $cars[$i]->brand->name }} {{ $cars[$i]->name }}</h3>
                         <p class="font-sans text-xs mt-2">
-                        {{ $cars[$i]->desscription }}
+                        {{ $cars[$i]->description }}
                         </p>
                     </div>
                 </div>

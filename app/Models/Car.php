@@ -74,6 +74,14 @@ class Car extends Model
     }
 
     /**
+     * @return HasMany<Description>
+     */
+    public function description(): HasMany
+    {
+        return $this->hasMany(Car::class);
+    }
+
+    /**
      * @return HasMany<Photo>
      */
     public function photo(): HasMany
@@ -81,11 +89,5 @@ class Car extends Model
         return $this->hasMany(Car::class);
     }
 
-    /**
-     * @return BelongsTo<Description>
-     */
-    public function description(): BelongsTo
-    {
-        return $this->belongsTo(Description::class);
-    }
+    
 }

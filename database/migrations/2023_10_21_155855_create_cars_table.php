@@ -14,13 +14,11 @@ return new class extends Migration
         Schema::create('cars', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->text('desscription')->nullable();
+            $table->text('description')->nullable();
             $table->string('slug');
             $table->foreignId('modele_id')->constrained()->cascadeOnDelete();
             $table->foreignId('brand_id')->constrained()->cascadeOnDelete();
             $table->foreignId('type_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('description_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('photo_id')->constrained()->cascadeOnDelete();
             $table->integer('power');
             $table->integer('couple');
             $table->decimal('timeAcc');

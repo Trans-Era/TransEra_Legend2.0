@@ -19,7 +19,6 @@ class PhotoFactory extends Factory
         return [
             'name' => fake()->text(),
             'path' => fake()->text(),
-            'car_id' => 1
         ];
     }
 }

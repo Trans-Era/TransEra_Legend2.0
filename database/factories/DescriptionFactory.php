@@ -18,8 +18,7 @@ class DescriptionFactory extends Factory
     {
         return [
             'name' => fake()->text(),
-            'description' => fake()->text(),
-            'car_id' => 1
+            'value' => fake()->text(),
         ];
     }
 }

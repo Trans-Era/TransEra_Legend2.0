@@ -66,7 +66,7 @@
               "
             >
               <p>
-                {{ $car->desscription }}
+                {{ $car->description }}
               </p>
             </div>
             <div class="relative w-full max-w-sm ptablet:mx-auto flex">
@@ -197,7 +197,7 @@
                   "
                 >
                   <li class="flex items-center gap-2">
-                    <span>{{ $car->description->info1 }}</span>
+                    <span>{{ $descriptions['info1'] }}</span>
                   </li>
                   <li class="flex items-center gap-2">
                     <span>-info2-</span>
