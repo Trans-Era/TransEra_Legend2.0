@@ -28,7 +28,8 @@
       </h2>
       <!--Subtitle-->
       <p class="font-sans font-light text-lg text-muted-500 dark:text-muted-400">
-        Pourquoi avoir que des simple images quand une video peut vous transporter bien plus simplement et plus loin ?
+        Pourquoi avoir que des simple images quand une video peut vous transporter bien
+        plus simplement et plus loin ? (cliquez sur l'image)
       </p>
     </div>
 
@@ -42,7 +43,7 @@
         x-show="!videoPlaying"s
         @click="videoPlaying = true; $refs.video.play();"
         class="absolute inset-0 flex items-center justify-center bg-cover bg-no-repeat bg-center"
-        style="background-image: url('/img/car/1/profil.webp');"
+        style="background-image: url('/img/illustrations/car/profil.jpg');"
       >
       </div>
     </div>

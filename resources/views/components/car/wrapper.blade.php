@@ -15,9 +15,9 @@
       <!--Column-->
       <div class="w-full ltablet:w-7/12 lg:w-8/12">
         <!--Design-->
-        <x-car.design :car='$car'/>
+        <x-car.design :car='$car' :descriptions='$descriptions' :photos='$photos'/>
         <!--Interior--> 
-        <x-car.interior :car='$car'/>
+        <x-car.interior :car='$car' :descriptions='$descriptions' :photos='$photos'/>
         <!--CTA-->
         <x-car.cta :car='$car'/>
       </div>

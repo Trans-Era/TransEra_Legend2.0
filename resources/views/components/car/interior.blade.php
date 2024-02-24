@@ -21,12 +21,11 @@
         dark:text-white
       "
     >
-      Interior
+      Intérieur
     </h2>
     <!--Subtitle-->
     <p class="font-sans font-light text-lg text-muted-500 dark:text-muted-400">
-      -descriptionInteriorPrincipal- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Torquatus:
-      Prorsus, inquit, assentior.
+      {{ $descriptions['principalInterior'] }}
     </p>
   </div>
 
@@ -35,17 +34,17 @@
     <div class="grid grid-cols-12 gap-4 mb-6">
       <img
         class="col-span-12"
-        src="/img/vehicles/details/6.jpg"
+        src="{{ asset($photos['int0']) }}"
         alt="Vehicle image"
       />
       <img
         class="col-span-6"
-        src="/img/vehicles/details/7.jpg"
+        src="{{ asset($photos['int1']) }}"
         alt="Vehicle image"
       />
       <img
         class="col-span-6"
-        src="/img/vehicles/details/8.jpg"
+        src="{{ asset($photos['int2']) }}"
         alt="Vehicle image"
       />
     </div>
@@ -53,22 +52,18 @@
     <div class="grid grid-cols-2 gap-6">
       <div>
         <h4 class="font-medium text-lg text-muted-800 dark:text-muted-100">
-          -descriptionInteriorname1-
+          {{ $descriptions['interiorTitle1'] }}
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
-          -descriptionInterior1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quantum
-          Aristoxeni ingenium consumptum videmus in musicis? Quid affers, cur
-          Thorius, cur Caius Postumius, cur omnium horum magister
+          {{ $descriptions['interior1'] }}
         </p>
       </div>
       <div>
         <h4 class="font-medium text-lg text-muted-800 dark:text-muted-100">
-          -descriptionInteriorname2-
+          {{ $descriptions['interiorTitle2'] }}
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
-          -descriptionInterior2- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quantum
-          Aristoxeni ingenium consumptum videmus in musicis? Quid affers, cur
-          Thorius, cur Caius Postumius, cur omnium horum magister
+          {{ $descriptions['interior2'] }}
         </p>
       </div>
     </div>

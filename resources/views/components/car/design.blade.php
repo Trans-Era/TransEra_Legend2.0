@@ -15,8 +15,7 @@
     </h2>
     <!--Subtitle-->
     <p class="font-sans font-light text-lg text-muted-500 dark:text-muted-400">
-      -descriptionDesign- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Torquatus:
-      Prorsus, inquit, assentior.
+      {{ $descriptions['design'] }}
     </p>
   </div>
 
@@ -24,7 +23,7 @@
     <!--Image-->
     <img
       class="max-w-xl"
-      src="/img/vehicles/details/4.png"
+      src="{{ asset($photos['lateral']) }}"
       alt="Vehicle image"
     />
     <!--Icon features-->
@@ -35,10 +34,10 @@
           data-icon="ph:wave-square-duotone"
         ></i>
         <h4 class="font-medium text-muted-800 dark:text-muted-100">
-          Design Sportif
+          {{ $descriptions['miniTitre1'] }}
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          {{ $descriptions['mini1'] }}
         </p>
       </div>
       <div class="font-sans">
@@ -47,10 +46,10 @@
           data-icon="ph:headlights-duotone"
         ></i>
         <h4 class="font-medium text-muted-800 dark:text-muted-100">
-          Technologie LED
+          {{ $descriptions['miniTitre2'] }}
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          {{ $descriptions['mini2'] }}
         </p>
       </div>
       <div class="font-sans">
@@ -59,10 +58,10 @@
           data-icon="ph:gauge-duotone"
         ></i>
         <h4 class="font-medium text-muted-800 dark:text-muted-100">
-          Cockpit digital
+          {{ $descriptions['miniTitre3'] }}
         </h4>
         <p class="text-sm text-muted-500 dark:text-muted-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        {{ $descriptions['mini3'] }}
         </p>
       </div>
     </div>

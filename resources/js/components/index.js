@@ -13,6 +13,7 @@ import { tabs } from './tabs'
 import { wizard } from './wizard'
 import { swiperHero } from './swiper'
 import { calendar } from './calendar'
+import { sendMail } from './email'
 
 window.layout = layout
 window.navbar = navbar
@@ -29,3 +30,4 @@ window.tabs = tabs
 window.wizard = wizard
 window.swiperHero = swiperHero
 window.calendar = calendar
+window.sendMail = sendMail

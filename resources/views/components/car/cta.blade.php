@@ -34,7 +34,7 @@
             dark:text-white
           "
         >
-          Passer à l'action ?
+          Passer à l'action.
         </h2>
         <!--Subtitle-->
         <p
@@ -51,7 +51,7 @@
         </p>
         <!--Button-->
         <a
-          href=""
+          href="{{ url('/contact') }}"
           class="
             relative
             font-sans font-normal
@@ -82,7 +82,7 @@
         </a>
         <!--Link-->
         <div class="text-center mt-5">
-          <a href="-lienVoiture-" class="font-sans font-medium text-sm text-muted-400 underline-offset-4 hover:underline hover:text-primary-500">Plus d'infos sur la voiture</a>
+          <a href="{{ route('cars.index') }}" class="font-sans font-medium text-sm text-muted-400 underline-offset-4 hover:underline hover:text-primary-500">Notre flotte</a>
         </div>
       </div>
     </div>

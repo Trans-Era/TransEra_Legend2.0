@@ -147,7 +147,7 @@
         </div>
       </div>
       <!--Hero logos-->
-      <div
+      <!--<div
         class="
           absolute
           bottom-8
@@ -171,7 +171,7 @@
             </div>
           </div>
         @endforeach
-      </div>
+      </div>-->
     </div>
   </div>
 </section>

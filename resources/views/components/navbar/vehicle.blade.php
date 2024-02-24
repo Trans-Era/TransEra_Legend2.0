@@ -22,7 +22,7 @@
     <div class="w-full max-w-7xl mx-auto flex flex-col md:flex-row md:items-center py-2 px-4">
       <div class="flex items-center gap-2 text-muted-500 dark:text-white">
         <div class="h-12 w-12">
-          <img src="{{ $car->brand->icon }}" />
+          <img src="{{ asset($car->brand->icon) }}" />
         </div>
         <span class="font-sans font-light text-xl">{{ $car->brand->name }}</span>
       </div>

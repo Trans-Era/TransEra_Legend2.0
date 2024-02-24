@@ -1,8 +1,8 @@
-<div class="grid ltablet:grid-cols-2 lg:grid-cols-2 gap-6">
+<div class="grid ltablet:grid-cols-2 lg:grid-cols-3 lg:gap-4 gap-6">
   <!--Grid item-->
   @foreach($cars as $car)
     <div
-      x-show="activeBrand === 'all' || activeBrand === 'landrover'"
+      x-show="activeBrand === 'all' || activeBrand === '{{ $car->brand->name }}'"
       class="
         group
         flex flex-col
@@ -212,13 +212,10 @@
             class="font-sans text-xs space-y-2 text-muted-500 dark:text-muted-400"
           >
             <li class="flex items-center gap-2">
-              <span>Midnight Silver Metallic Paint</span>
+              <span><span>{{ app\Http\Controllers\Car\IndexController::getDescription($car->id,"info1") }}</span></span>
             </li>
             <li class="flex items-center gap-2">
-              <span>20’’ Überturbine Wheels</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span>All Black Premium Interior</span>
+              <span><span>{{ app\Http\Controllers\Car\IndexController::getDescription($car->id,"info2") }}</span></span>
             </li>
           </ul>
         </div>
@@ -227,10 +224,10 @@
             class="font-sans text-xs space-y-2 text-muted-500 dark:text-muted-400"
           >
             <li class="flex items-center gap-2">
-              <span>Performance Upgrade</span>
+              <span><span>{{ app\Http\Controllers\Car\IndexController::getDescription($car->id,"info3") }}</span></span>
             </li>
             <li class="flex items-center gap-2">
-              <span>Carbon Fiber Spoiler</span>
+              <span><span>{{ app\Http\Controllers\Car\IndexController::getDescription($car->id,"info4") }}</span></span>
             </li>
           </ul>
         </div>

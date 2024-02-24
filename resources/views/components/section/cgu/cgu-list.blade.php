@@ -30,9 +30,6 @@
                     class="iconify w-6 h-6 mb-2 text-primary-500"
                     data-icon="ph:broadcast-duotone"
                   ></i>
-                  <h4 class="font-medium text-muted-800 dark:text-muted-100">
-                    Body expertise
-                  </h4>
                   <p class="text-xs max-w-[1800px] text-muted-500 dark:text-muted-400">
                     Le locataire sera responsable du véhicule et devra payer avant la location. il ne peut pas céder le véhicule à quelqu’un d’autre ; 
                     sinon, il doit le rembourser en cas de problème, car l’assurance ne le couvrira pas.
@@ -93,9 +90,6 @@
                     class="iconify w-6 h-6 mb-2 text-primary-500"
                     data-icon="ph:car-duotone"
                   ></i>
-                  <h4 class="font-medium text-muted-800 dark:text-muted-100">
-                    Body expertise
-                  </h4>
                   <p class="text-xs max-w-[1800px] text-muted-500 dark:text-muted-400">
                     Le véhicule sera spécifié dans le contrat avec ses données d’identification. Le contrat comprend une description du véhicule et un 
                     duplicata de l’état extérieur signé par les deux parties. La location est personnelle et incessible. Véhicule utilisable dans 
@@ -146,9 +140,6 @@
                     class="iconify w-6 h-6 mb-2 text-primary-500"
                     data-icon="ph:broadcast-duotone"
                   ></i>
-                  <h4 class="font-medium text-muted-800 dark:text-muted-100">
-                    Body expertise
-                  </h4>
                   <p class="text-xs text-muted-500 dark:text-muted-400">
                     Le loueur met à disposition le véhicule spécifié tout au long de la location. Le véhicule est inspecté et entretenu par le locateur pour empressement. 
                     Accessoires et roue de secours fournis si possible. Inspection du véhicule avant et après la location avec les détails convenus.

@@ -9,14 +9,14 @@
             <div class="grid grid-cols-12 md:gap-12 pb-20">
 
                 <!--Filters-->
-                <div class="hidden lg:block col-span-12 lg:col-span-3">
+                <!--<div class="hidden lg:block col-span-12 lg:col-span-3">
                     <x-car.index.grid-filters :types="$types" />
-                </div>
+                </div>-->
 
                 <!--Content-->
-                <div class="col-span-12 lg:col-span-9">
+                <div class="col-span-12 lg:col-span-12">
                     <!--Subgrid-->
-                    <x-car.index.grid-content :cars="$cars" :types="$types" />
+                    <x-car.index.grid-content :cars="$cars" :types="$types"/>
                 </div> 
             </div>
         </div>

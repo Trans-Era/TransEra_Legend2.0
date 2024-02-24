@@ -84,6 +84,30 @@
           duration-300
           tw-accessibility
         "
+        id="name"
+        placeholder="Votre nom"
+        type="name"
+      />
+      <input
+        class="
+          bg-white
+          dark:bg-muted-700
+          border border-muted-300
+          dark:border-muted-500
+          focus:shadow-xl focus:shadow-muted-400/10
+          dark:focus:shadow-muted-800/10
+          placeholder:text-muted-300
+          dark:placeholder:text-muted-500
+          text-base text-muted-600
+          dark:text-muted-200
+          px-4
+          py-2
+          mb-4
+          transition-all
+          duration-300
+          tw-accessibility
+        "
+        id="email"
         placeholder="Votre adresse mail"
         type="email"
       />
@@ -108,6 +132,7 @@
           duration-300
           tw-accessibility
         "
+        id="body"
         placeholder="Votre message"
       ></textarea>
       <button
@@ -125,6 +150,7 @@
           transition-all
           duration-300
         "
+        onclick="sendMail()"
       >
         Send Message
       </button>

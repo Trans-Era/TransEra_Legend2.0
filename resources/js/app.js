@@ -11,11 +11,15 @@ import intersect from '@alpinejs/intersect'
 import collapse from '@alpinejs/collapse'
 import persist from '@alpinejs/persist'
 import Tooltip from '@ryangjchandler/alpine-tooltip'
+import emailjs from '@emailjs/browser'
 import { insertBgImages } from './utils/bg'
 
 import './demo'
 import './components'
 import './pages'
+
+window.emailjs = emailjs
+emailjs.init("_B3jA8cUozGsY08Lz");
 
 window.Alpine = Alpine
 //Init intersect plugin
@@ -39,10 +43,9 @@ Alpine.store('app', {
 //Start Alpine
 Alpine.start()
 
-/*
 document.onreadystatechange = function () {
-    if (document.readyState == 'complete') {
-      // Replace bg images
-      insertBgImages()
-    }
-  }*/
+  if (document.readyState == 'complete') {
+    // Replace bg images
+    insertBgImages()
+  }
+}

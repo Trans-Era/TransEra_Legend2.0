@@ -10,11 +10,6 @@ use App\Models\Type;
 
 class AppLayout extends Component
 {
-    /**
-     * Brands for the Brand component.
-     *
-     * @var Collection<int, Brand>
-    */
     public Collection $brandsNav;
     public Collection $typesNav;
 
@@ -23,7 +18,6 @@ class AppLayout extends Component
         $this->brandsNav = Brand::all();
         $this->typesNav = Type::all();
     }
-
     /**
      * Get the view / contents that represents the component.
      */
