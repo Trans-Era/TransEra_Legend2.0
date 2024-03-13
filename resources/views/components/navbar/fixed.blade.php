@@ -46,9 +46,9 @@
               duration-300
             "
           >
-            {{> vector/logos/logo}}
+            <img src="{{ asset('img/logo/logoWhite.png') }}" />
           </div>
-          <span class="text-2xl">TransEra Legend</span>
+          <span class="text-2xl">Trans Era Legend</span>
         </a>
 
         <!-- Hamburger -->

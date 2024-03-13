@@ -35,7 +35,7 @@
                 dark:text-white
               "
             >
-              TransEra
+              Trans Era
             </h1>
             <p
               class="
@@ -48,7 +48,7 @@
                 mb-4
               "
             >
-              TransEra Legend est une entreprise de location de voitures à forte personnalité Notre objectif est de transmettre un message à travers les sensations de conduite, rendant ainsi accessibles les 
+              Trans Era Legend est une entreprise de location de voitures à forte personnalité Notre objectif est de transmettre un message à travers les sensations de conduite, rendant ainsi accessibles les 
               souvenirs de notre enfance et mettant à la portée de tous des véhicules emblématiques.
             </p>
             <div class="flex flex-col md:flex-row items-center gap-2">

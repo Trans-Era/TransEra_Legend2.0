@@ -35,17 +35,17 @@
         <p
           class="font-sans font-light text-lg text-muted-500 dark:text-muted-400"
         >
-          TransEra est créée par deux personnes passionnées, amoureuses des voitures, de la mode et surtout de la programmation.
+          Trans Era est créée par deux personnes passionnées, amoureuses des voitures, de la mode et surtout de la programmation.
         </p>
       </div>
   
       <div class="w-full max-w-5xl mx-auto">
-        <img src="/img/photo/about-banner.png" alt="About image" />
+        <img src="/img/photo/about-banner1.png" alt="About image" />
   
         <!--Text-->
         <div
           class="
-            grid grid-cols-3
+            grid grid-cols-2
             gap-8
             mt-6
             mb-12
@@ -101,14 +101,14 @@
               Pour nos clients
             </h4>
             <p class="font-sans text-sm text-muted-500 dark:text-muted-400">
-              Chez TransEra Legend, nous visons une clientèle diversifiée et passionnée. Que vous soyez amateur de sensations fortes, 
+              Chez Trans Era Legend, nous visons une clientèle diversifiée et passionnée. Que vous soyez amateur de sensations fortes, 
               passionné de voitures de caractère, ou simplement en quête d'une expérience unique, nos véhicules sont conçus pour vous. 
               Rejoignez-nous pour une aventure où la route devient le théâtre de vos passions.
             </p>
           </div>
         </div>
         <!--Features-->
-        <div class="grid grid-cols-4 gap-x-4 gap-y-8 mt-6 pb-6">
+        <div class="grid grid-cols-2 gap-x-4 gap-y-8 mt-6 pb-6">
           <!--Feature-->
           <div class="font-sans">
             <i
@@ -132,7 +132,7 @@
               Réactivité
             </h4>
             <p class="text-sm text-muted-500 dark:text-muted-400">
-              Chez TransEra Legend, nous répondons à vos besoins avec une efficacité exceptionnelle.
+              Chez Trans Era Legend, nous répondons à vos besoins avec une efficacité exceptionnelle.
             </p>
           </div>
           <!--Feature-->
@@ -145,7 +145,7 @@
               Evénements
             </h4>
             <p class="text-sm text-muted-500 dark:text-muted-400">
-              Participez à nos future événements exclusifs chez TransEra Legend.
+              Participez à nos future événements exclusifs chez Trans Era Legend.
             </p>
           </div>
           <!--Feature-->

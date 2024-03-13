@@ -47,7 +47,7 @@
           width="48"
           height="48"
         />
-        <span class="font-heading font-light text-2xl ml-3">TransEra Legend</span>
+        <span class="font-heading font-light text-2xl ml-3">Trans Era Legend</span>
       </a>
 
       <!--Theme toggler-->

@@ -25,7 +25,7 @@
         >
           <img
             class="h-full w-full object-cover"
-            src="/img/photo/600x600/3.jpg"
+            src="/img/photo/600x600/american.png"
             alt="Cars in line"
             width="576"
             height="576"

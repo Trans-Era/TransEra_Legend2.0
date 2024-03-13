@@ -41,7 +41,7 @@
       class="block h-10 w-10 group-hover:text-primary-500"
       :class="activeBrand === 'all' ? 'text-primary-500' : ''"
     >
-    <x-vector.logos.logo />
+      <img src="{{ asset('img/logo/logoWhite.png') }}" />
     </span>
     <span>All</span>
   </button>

@@ -34,7 +34,7 @@
       <p
         class="font-sans font-light text-lg text-muted-500 dark:text-muted-400"
       >
-        Ici vous avez nos véhicules disponible à la location pour demain, pas besoin de cherchez bien loin l'excellence avec TransEra Legend
+        Ici vous avez nos véhicules disponible à la location pour demain, pas besoin de cherchez bien loin l'excellence avec Trans Era Legend
       </p>
     </div>
 

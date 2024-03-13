@@ -56,7 +56,7 @@
                 Performance et Excellence
             </h1>
             <p class="font-sans text-lg text-white max-w-md mx-auto ltablet:mx-0 lg:mx-0">
-                Explorez l'excellence au volant de nos bijoux mécaniques. Réservez la puissance, ressentez l'émotion chez TransEra Legend !
+                Explorez l'excellence au volant de nos bijoux mécaniques. Réservez la puissance, ressentez l'émotion chez Trans Era Legend !
             </p>
         </div>
         </div>
