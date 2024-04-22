@@ -29,7 +29,7 @@
             dark:text-white
           "
         >
-          Qui nous somme ?
+          Qui sommes-nous ?
         </h2>
         <!--Subtitle-->
         <p
@@ -63,7 +63,7 @@
                 dark:text-muted-100
               "
             >
-              Notre visions
+              Notre vision
             </h4>
             <p class="font-sans text-sm text-muted-500 dark:text-muted-400"> 
               Notre engagement envers l'innovation, le service exceptionnel et la préservation 

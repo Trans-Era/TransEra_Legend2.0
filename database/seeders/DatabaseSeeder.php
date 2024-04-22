@@ -70,6 +70,7 @@ class DatabaseSeeder extends Seeder
             'modele_id' => 1,
             'brand_id' => 1,
             'type_id' => 1,
+            'slug' => 'ford-mustang-gt-v8-2020',
         ]);
         Car::factory()->create([
             'name' => 'Corvette C7',
@@ -84,6 +85,7 @@ class DatabaseSeeder extends Seeder
             'modele_id' => 2,
             'brand_id' => 2,
             'type_id' => 2,
+            'slug' => 'chevrolet-corvette-c7',
         ]);
         Car::factory()->create([
             'name' => 'Firebird GTA',
@@ -98,6 +100,7 @@ class DatabaseSeeder extends Seeder
             'modele_id' => 3,
             'brand_id' => 3,
             'type_id' => 3,
+            'slug' => 'pontiac-firebird-transam-gta',
         ]);
         Description::factory()->create([
             'name' =>'info1',
