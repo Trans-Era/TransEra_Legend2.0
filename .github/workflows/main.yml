@@ -17,4 +17,4 @@ jobs:
         server: 79.137.83.2
         username: debian
         password: X5kEhC8xQChr
-        server-dir: /var/www/transera_website
+        server-dir: /var/www/transera_website/
