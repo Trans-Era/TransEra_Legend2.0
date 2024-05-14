@@ -34,7 +34,7 @@
       <p
         class="font-sans font-light text-lg text-muted-500 dark:text-muted-400"
       >
-        Ici vous avez nos véhicules disponible à la location pour demain, pas besoin de cherchez bien loin l'excellence avec Trans Era Legend
+        Ici, découvrez nos véhicules exclusifs tels que la Mustang ou une Corvette à la location. Pas besoin de chercher bien loin pour l'excellence avec Trans Era Legend.
       </p>
     </div>
 
@@ -86,7 +86,7 @@
                 {{ $car->modele->name }}
             </h3>
             <p class="font-sans text-xs text-muted-400">
-              Available for local delivery
+              {{ $car->type->name }}
             </p>
           </div>
           <div class="ml-auto">

@@ -7,6 +7,7 @@ use App\Models\Car;
 use App\Models\Description;
 use App\Models\Photo;
 use Illuminate\View\View;
+use Illuminate\Support\Facades\Redirect;
 
 class ShowController extends Controller
 {

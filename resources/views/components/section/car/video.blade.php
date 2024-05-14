@@ -28,8 +28,8 @@
       </h2>
       <!--Subtitle-->
       <p class="font-sans font-light text-lg text-muted-500 dark:text-muted-400">
-        Pourquoi avoir que des simple images quand une video peut vous transporter bien
-        plus simplement et plus loin ? (cliquez sur l'image)
+        Pourquoi avoir que des simple images quand une video d'une Mustang peut vous transporter bien
+        plus simplement et plus loin. (cliquez sur l'image)
       </p>
     </div>
 

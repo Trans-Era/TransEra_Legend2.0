@@ -17,7 +17,7 @@
       <p
         class="font-sans font-light text-lg text-muted-500 dark:text-muted-400"
       >
-        Nous travaillons avec des marques exclusives afin de cibler une clientèle haut de gamme. Voici quelques-unes d'entre elles :
+        Nous travaillons avec des marques exclusives Américaine qui reflète le sport ou le luxe afin de cibler une clientèle haut de gamme. Voici quelques-unes d'entre elles :
       </p>
     </div>
 

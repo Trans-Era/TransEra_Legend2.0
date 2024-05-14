@@ -1,10 +1,3 @@
-@section('meta_title', 'Désolé, cette page n'existe pas.')
-@section('meta_description', 'Location de vehicule américaine. Notre flotte contient des Mustang, Corvette et Pontiac. Disponible à Metz, Thionville, Nancy, Strasbourg et au Luxembourg')
-
-<!--Start Layout-->
-<x-minimal-layout>
-
-<!--Error screen-->
 <section
   class="
     relative
@@ -17,7 +10,6 @@
     overflow-hidden
   "
 >
-  <!--Fake nav-->
   <div class="absolute top-0 left-0 w-full">
     <div
       class="
@@ -33,7 +25,7 @@
     >
       <!--Logo-->
       <a
-        href="{{ url('/dashboard') }}"
+        href="{{ url('/') }}"
         class="
           flex
           title-font
@@ -43,13 +35,6 @@
           dark:text-muted-100
         "
       >
-        <img
-          class="h-11"
-          src="/img/logo/logo-square.svg"
-          alt="Mistral logo"
-          width="48"
-          height="48"
-        />
         <span class="font-heading font-light text-2xl ml-3">Trans Era Legend</span>
       </a>
 
@@ -124,7 +109,7 @@
                 opacity-5
               "
             >
-              404
+              503
             </span>
           </div>
         </div>
@@ -140,11 +125,10 @@
               mb-2
             "
           >
-            Nous n’avons pas trouvé cette page
+            Maintenance
           </h2>
           <p class="w-full max-w-md mx-auto font-sans text-lg text-muted-400">
-            Désolé, il semble que cette page n'existe pas ou soit en cours de maintenance. Si vous rencontrez à nouveau ce problème, 
-            veuillez contacter un administrateur du site.
+            Ne vous inquiétez pas, cette situation est temporaire. Nous reviendrons avec votre tableau de bord magnifique et doté de fonctionnalités très attrayantes :)
           </p>
           <!--Link-->
           <a
@@ -180,6 +164,3 @@
     </div>
   </div>
 </section>
-
-<!--End Layout-->
-</x-minimal-layout>

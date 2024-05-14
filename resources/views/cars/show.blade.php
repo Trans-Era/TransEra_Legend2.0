@@ -1,5 +1,5 @@
 <x-minimal-layout>
-    @section('meta_title', 'Location de ' . $car->name)
+    @section('meta_title', 'Location du véhicule: ' . $car->name)
     @section('meta_description', 'Location de ' . $car->name . ' à petit prix disponible sous peu à Metz, Strasbourg, Thionville, Nancy et au Luxembourg')
     <div x-data="vehicle()" x-init="initScrollAnchors()">
         <x-navbar.vehicle :car='$car' />

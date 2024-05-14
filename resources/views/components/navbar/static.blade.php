@@ -63,7 +63,7 @@
             <button type="button" class="group relative inline-flex items-center gap-1 text-base font-sans font-light py-2 md:mx-2 tw-accessibility text-white hover:text-primary-500 z-50" :class="[
               megamenuOpened ? 'z-40' : 'z-50',
             ]">
-              <span>Vehicles</span>
+              <span>Vehicules</span>
               <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" :class="[
                 openedMegamenu === 'megamenu-1' &amp;&amp; megamenuOpened ? 'rotate-180' : '',
               ]" data-icon="lucide:chevron-down" class="iconify w-5 h-5 text-white group-hover:text-primary-500 transition-transform duration-300 iconify--lucide"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"></path></svg>
@@ -161,7 +161,7 @@
             <button type="button" class="group relative inline-flex items-center gap-1 text-base font-sans font-light py-2 md:mx-2 tw-accessibility text-white hover:text-primary-500 z-50" :class="[
               megamenuOpened ? 'z-40' : 'z-50',
             ]">
-              <span>Brands</span>
+              <span>Marque</span>
               <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" :class="[
                 openedMegamenu === 'megamenu-2' &amp;&amp; megamenuOpened ? 'rotate-180' : '',
               ]" data-icon="lucide:chevron-down" class="iconify w-5 h-5 text-white group-hover:text-primary-500 transition-transform duration-300 iconify--lucide"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"></path></svg>
@@ -264,7 +264,7 @@
           </li>
           @if(Auth::check())
           <li x-on:mouseover="megamenuOpened = false, openedMegamenu = ''">
-            <a href="/dashboard.html" class="
+            <a href="{{ url('/dashboard') }}" class="
                 block
                 text-base
                 font-sans font-light
@@ -274,7 +274,7 @@
                 md:mx-2
                 tw-accessibility
               ">
-              Account
+              Dashboard
             </a>
           </li>
           @endif
@@ -421,7 +421,7 @@
           </label>
         </div>
         @if(Auth::check())
-          <a href="/dashboard.html" class="
+          <a href="{{ url('/account') }}" class="
             relative
             font-sans font-normal
             inline-flex
@@ -445,8 +445,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="lucide:user" class="iconify w-4 h-4 iconify--lucide"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></g></svg>
           </a>
         @else
-            <!--<a href="{{ route('login.index') }}" class="-->
-            <a href="" class="
+            <a href="{{ route('login.index') }}" class="
               relative
               font-sans font-normal
               inline-flex

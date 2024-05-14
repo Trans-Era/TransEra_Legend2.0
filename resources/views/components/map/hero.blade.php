@@ -63,7 +63,9 @@
       <p
         class="font-sans leading-tight mb-5 text-muted-500 dark:text-muted-400"
       >
-      Posez-nous votre question, nous y répondrons dans les plus brefs délais.
+      Posez-nous votre question, nous y répondrons dans les plus brefs délais.<br><br> (Si vous n'avez pas de reponse 
+      au bout d'une semaine n'hesitez pas à nous recontacter sur les reseaux via la messagerie ou via notre
+      mail: transeralegend@gmail.com)
       </p>
       <input
         class="

@@ -1,3 +1,6 @@
+@section('meta_title', 'Connexion - Historique location Mustang')
+@section('meta_description', 'En vous connectant, vous bénéficiez de fonctionnalités telles qu un historique avec des factures, ainsi que des réductions via notre système de réduction.')
+
 <x-minimal-layout>
     <div class="min-h-screen bg-white dark:bg-muted-800 flex">
       <div
@@ -13,7 +16,7 @@
           bg-muted-100
           dark:bg-muted-1000
         "
-        data-background="{{ asset('img/login/city.webp') }}"
+        data-background="{{ asset('img/login/city.jpg') }}"
       ></div>
       <div
         class="
@@ -39,7 +42,7 @@
             "
           >
             <a
-              href="{{ route('home.index') }}"
+              href="{{ url('/') }}"
               class="
                 flex
                 items-center
@@ -52,7 +55,7 @@
               "
             >
               <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="gg:arrow-long-left" class="iconify w-5 h-5 iconify--gg"><path fill="currentColor" d="m1.027 11.993l4.235 4.25L6.68 14.83l-1.821-1.828L22.974 13v-2l-18.12.002L6.69 9.174L5.277 7.757l-4.25 4.236Z"></path></svg>
-              <span>Back to Home</span>
+              <span>Retour</span>
             </a>
             <!--Theme button-->
             <!-- theme/theme-toggler-base -->
@@ -69,10 +72,10 @@
                 dark:text-muted-100
               "
             >
-              Welcome back.
+              Ah, vous revoilà !
             </h2>
             <p class="font-sans text-sm text-muted-400 mb-6">
-              Login with your credentials
+              Heureux de vous revoir.
             </p>
           </div>
     
@@ -81,6 +84,7 @@
             <div class="mt-5">
               <!--Form-->
               <form action="{{ route('login.store') }}" method="POST">
+                @csrf
                 <!--Field-->
                 <div>
                   <label
@@ -95,7 +99,7 @@
                       dark:text-muted-500
                     "
                   >
-                    Email address
+                    Adresse email
                   </label>
                   <div class="mt-1 shadow-sm">
                     <input
@@ -117,7 +121,8 @@
                         duration-300
                         tw-accessibility
                       "
-                      placeholder="Email address"
+                      placeholder="Adresse email"
+                      id="email" 
                       type="email"
                       name="email"
                     />
@@ -138,7 +143,7 @@
                       dark:text-muted-500
                     "
                   >
-                    Password
+                    Mot de passe
                   </label>
                   <div class="mt-1 shadow-sm">
                     <input
@@ -160,7 +165,8 @@
                         duration-300
                         tw-accessibility
                       "
-                      placeholder="Password"
+                      placeholder="Mot de passe"
+                      id="password"
                       type="password"
                       name="password"
                     />
@@ -258,11 +264,11 @@
                         dark:text-muted-400
                       "
                     >
-                      Remember me
+                      Se souvenir de moi
                     </label>
                   </div>
     
-                  <div class="text-sm leading-5">
+                  <!--<div class="text-sm leading-5">
                     <a
                       href="/forgot.html"
                       class="
@@ -277,7 +283,7 @@
                     >
                       Forgot your password?
                     </a>
-                  </div>
+                  </div>-->
                 </div>
     
                 <!--Submit-->
@@ -303,7 +309,7 @@
                         tw-accessibility
                       "
                     >
-                      Sign in
+                      Connexion
                     </button>
                   </span>
                 </div>
@@ -335,7 +341,7 @@
                     duration-150
                   "
                 >
-                  Don't have an account ?
+                  Vous n'avez pas de compte ?
                 </a>
               </p>
             </div>

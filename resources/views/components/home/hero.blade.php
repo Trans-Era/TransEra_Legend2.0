@@ -53,10 +53,10 @@
         <div class="w-full max-w-7xl mx-auto grid grid-cols-12 px-4">
         <div class="col-span-12 text-center ltablet:text-left lg:text-left ltablet:col-span-5 lg:col-span-5 space-y-4">
             <h1 class="font-sans font-semibold text-5xl ltablet:text-6xl lg:text-7xl leading-none text-white">
-                Performance et Excellence
+                La Mustang une vrai Américaine de sport...
             </h1>
             <p class="font-sans text-lg text-white max-w-md mx-auto ltablet:mx-0 lg:mx-0">
-                Explorez l'excellence au volant de nos bijoux mécaniques. Réservez la puissance, ressentez l'émotion chez Trans Era Legend !
+                Trans Era Legend : Votre partenaire pour des sensations inégalées au volant d'une américaine sportive ou luxueuse comme une Mustang ! Luxembourg, Metz, Nancy ou Strasbourg, aucune limite n'est impossible.
             </p>
         </div>
         </div>

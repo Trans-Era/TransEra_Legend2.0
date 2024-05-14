@@ -14,7 +14,6 @@ import Tooltip from '@ryangjchandler/alpine-tooltip'
 import emailjs from '@emailjs/browser'
 import { insertBgImages } from './utils/bg'
 
-import './demo'
 import './components'
 import './pages'
 

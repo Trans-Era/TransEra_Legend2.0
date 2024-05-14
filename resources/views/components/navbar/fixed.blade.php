@@ -33,7 +33,7 @@
     >
       <div class="flex justify-between items-center w-full lg:w-1/5">
         <a
-          href="/home.html"
+          href="{{ url('/dashboard') }}"
           class="group flex font-sans font-light items-center gap-4"
           :class="scrolled || megamenuOpened || mobileOpen ? 'text-white' : 'text-muted-800 dark:text-white'"
         >
@@ -246,7 +246,7 @@
           </li>
           <li x-on:mouseover="megamenuOpened = false, openedMegamenu = ''">
             <a
-              href="/dashboard.html"
+              href="{{ url('/dashboard') }}"
               class="
                 block
                 text-base
@@ -369,7 +369,7 @@
           <i class="iconify w-4 h-4" data-icon="lucide:heart"></i>
         </a>
         <a
-          href="/dashboard.html"
+          href="{{ url('/dashboard') }}"
           class="
             relative
             font-sans font-normal
