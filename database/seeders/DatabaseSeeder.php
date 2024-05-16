@@ -46,34 +46,6 @@ class DatabaseSeeder extends Seeder
 
         $cars = [
         [
-            'name' => 'Corvette C7',
-            'description' => 'Une symphonie de performance. Motorisation ronflante, allure racée, technologie de pointe. La Corvette est une supercar qui repousse les limites de l excitation.',
-            'power' => 466,
-            'couple' => 640,
-            'timeAcc' => 4.2,
-            'photo' => 'img/car/1/corvette.webp',
-            'thumbnail' => 'img/car/1/corvette-wobg.webp',
-            'year' => 2014,
-            'price' => 350,
-            'modele_id' => 2,
-            'brand_id' => 2,
-            'type_id' => 2,
-            'slug' => 'chevrolet-corvette-c7',
-        ],[
-            'name' => 'Firebird GTA',
-            'description' => 'Puissance et style incarnés. Lignes aérodynamiques, allure agressive, intérieur retro-futuriste. Une légende indémodable qui est cette Firebird Trans Am GTA de 1989, la Firebird brûle l asphalte avec une intensité inégalée.',
-            'power' => 240,
-            'couple' => 345,
-            'timeAcc' => 6.5,
-            'photo' => 'img/car/1/firebird.jpg',
-            'thumbnail' => 'img/car/1/firebird-wobg.png',
-            'year' => 1982,
-            'price' => 150,
-            'modele_id' => 3,
-            'brand_id' => 3,
-            'type_id' => 3,
-            'slug' => 'pontiac-firebird-transam-gta',
-        ],[
             'name' => 'Mustang V8 GT 5.0',
             'description' => 'Puissance et élégance réunies. Moteur 5.0L, 450 chevaux rugissants, design emblématique, confort moderne. La Mustang est une légende sur roues.',
             'power' => 450,
@@ -87,6 +59,34 @@ class DatabaseSeeder extends Seeder
             'brand_id' => 1,
             'type_id' => 1,
             'slug' => 'ford-mustang-gt-v8-2020',
+        ],[
+            'name' => 'Corvette C7',
+            'description' => 'Une symphonie de performance. Motorisation ronflante, allure racée, technologie de pointe. La Corvette est une supercar qui repousse les limites de l excitation.',
+            'power' => 466,
+            'couple' => 640,
+            'timeAcc' => 4.2,
+            'photo' => 'img/car/2/corvette.webp',
+            'thumbnail' => 'img/car/2/corvette-wobg.webp',
+            'year' => 2014,
+            'price' => 350,
+            'modele_id' => 2,
+            'brand_id' => 2,
+            'type_id' => 2,
+            'slug' => 'chevrolet-corvette-c7',
+        ],[
+            'name' => 'Firebird GTA',
+            'description' => 'Puissance et style incarnés. Lignes aérodynamiques, allure agressive, intérieur retro-futuriste. Une légende indémodable qui est cette Firebird Trans Am GTA de 1989, la Firebird brûle l asphalte avec une intensité inégalée.',
+            'power' => 240,
+            'couple' => 345,
+            'timeAcc' => 6.5,
+            'photo' => 'img/car/3/firebird.jpg',
+            'thumbnail' => 'img/car/3/firebird-wobg.png',
+            'year' => 1982,
+            'price' => 150,
+            'modele_id' => 3,
+            'brand_id' => 3,
+            'type_id' => 3,
+            'slug' => 'pontiac-firebird-transam-gta',
         ]];
         foreach ($cars as $carData) {
             $car = Car::factory()->create($carData);
@@ -95,7 +95,7 @@ class DatabaseSeeder extends Seeder
         $descriptions = [
             [
                 'name' => 'info1',
-                'value' => 'Voiture ancienne de renommée',
+                'value' => 'Full option',
                 'car_id' => 1,
             ],[
                 'name' =>'info1',
@@ -142,7 +142,7 @@ class DatabaseSeeder extends Seeder
                 'value' =>'Plongez dans l univers captivant de son compteur. Élégant, moderne, chaque virage, chaque accélération est sublimé par la précision de ce compteur',
                 'car_id' => 1,
             ],[
-                'name' =>'princialInterior',
+                'name' =>'principalInterior',
                 'value' =>'Les sièges baquets offrent un excellent maintien latéral, tandis que le volant sport et les commandes ergonomiques garantissent une prise en main optimale.  l intérieur de cette C7 est l endroit où le confort, le style et la technologie se rejoignent pour offrir une expérience de conduite exceptionnelle.',
                 'car_id' => 1,
             ],[
@@ -206,7 +206,7 @@ class DatabaseSeeder extends Seeder
                 'value' =>'Plongez dans l univers captivant de son compteur. Élégant, moderne, chaque virage, chaque accélération est sublimé par la précision de ce compteur',
                 'car_id' => 2,
             ],[
-                'name' =>'princialInterior',
+                'name' =>'principalInterior',
                 'value' =>' Les sièges baquets offrent un excellent maintien latéral, tandis que le volant sport et les commandes ergonomiques garantissent une prise en main optimale.  l intérieur de cette C7 est l endroit où le confort, le style et la technologie se rejoignent pour offrir une expérience de conduite exceptionnelle.',
                 'car_id' => 2,
             ],[
@@ -270,7 +270,7 @@ class DatabaseSeeder extends Seeder
                 'value' =>'De nombreux cadrans rectangulaires et circulaires affichent une multitude d informations, donnant l impression de se trouver dans le cockpit d un engin aéronautique.',
                 'car_id' => 3,
             ],[
-                'name' =>'princialInterior',
+                'name' =>'principalInterior',
                 'value' =>'L intérieur de cette Trans Am  est un mélange de rétro et de futuriste. Les sièges en cuir sport offrent un excellent soutien latéral, tandis que le tableau de bord est doté de nombreux cadrans et indicateurs, donnant à l habitacle une allure de cockpit d avion. Offrant une expérience de conduite agréable et immersive.',
                 'car_id' => 3,
             ],[
@@ -350,14 +350,5 @@ class DatabaseSeeder extends Seeder
         foreach ($photos as $photoData) {
             Photo::factory()->create(array_merge($photoData));
         }
-
-        /*User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-            'password' => 'password',
-            'city' => 'Metz',
-            'birth' => '14/03/1999',
-            'adress' => '10 Rue du test'
-        ]);*/
     }
 }
