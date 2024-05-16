@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory(10)->create();
+        //User::factory(10)->create();
 //________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
         Modele::factory()->create([
             'name' =>'Mustang 5.0'
@@ -339,11 +339,16 @@ class DatabaseSeeder extends Seeder
         ],[
             'name' =>'int2',
             'path' =>'img/car/3/firebird-int2.jpg',
-            'car_id' => 3,
+            'car_id' => 3
         ]);
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+//________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+        \App\Models\User::factory()->create([
+            'name' => 'Test User',
+            'city' => '',
+            'email' => 'test@example.com',
+            'password' => 'password',
+            'birth' => '14/03/1999',
+            'adress' => '10 Rue du test'
+        ]);
     }
 }
