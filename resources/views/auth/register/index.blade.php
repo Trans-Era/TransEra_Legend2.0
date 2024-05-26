@@ -82,6 +82,11 @@ class="
                   name="email"
                 />
               </div>
+              @error('email')
+                <div class="mt-2 text-sm text-red-600">
+                  {{ "Veuillez vérifier votre email et réessayer." }}
+                </div>
+              @enderror
             </div>
             <!--Field-->
             <div class="mb-6">
@@ -124,6 +129,11 @@ class="
                   name="password"
                 />
               </div>
+              @error('password')
+                <div class="mt-2 text-sm text-red-600">
+                  {{ "Votre mot de passe doit contenir au moins 8 caractères." }}
+                </div>
+              @enderror
             </div>
             <div class="mb-6">
               <div class="w-full">

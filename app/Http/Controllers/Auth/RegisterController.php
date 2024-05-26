@@ -50,7 +50,6 @@ class RegisterController extends Controller
 
         // Vous pouvez ensuite rediriger l'utilisateur vers une autre page ou afficher un message de succès
         return redirect()->route('dashboard.index')->with('success', 'Votre compte a été créé avec succès !');
-
     }
 
     public function index(): View
