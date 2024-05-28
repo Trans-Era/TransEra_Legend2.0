@@ -62,7 +62,6 @@
         duration-300
       "
     >
-      <x-vector.logos.logo/>
     </div>
     <!--Theme toggler-->
     <div
