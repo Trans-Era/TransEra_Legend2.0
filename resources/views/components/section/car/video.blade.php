@@ -43,7 +43,7 @@
         x-show="!videoPlaying"s
         @click="videoPlaying = true; $refs.video.play();"
         class="absolute inset-0 flex items-center justify-center bg-cover bg-no-repeat bg-center"
-        style="background-image: url('/img/illustrations/car/profil.png');"
+        style="background-image: url('/img/illustrations/car/profil.webp');"
       >
       </div>
     </div>

@@ -35,7 +35,7 @@
       <div class="relative col-span-12 md:col-span-7 place-items-end">
         <img
           class="h-64 w-64"
-          src="/img/vehicles/details/9.png"
+          src="/img/vehicles/details/9.webp"
           alt="Vehicle image"
         />
       </div>
@@ -69,7 +69,7 @@
       <div class="relative col-span-12 md:col-span-7 place-items-end">
         <img
           class="h-64 w-64 ml-auto"
-          src="/img/vehicles/details/10b.png"
+          src="/img/vehicles/details/10b.webp"
           alt="Vehicle image"
         />
       </div>
@@ -89,7 +89,7 @@
         <div>
           <img
             class="mb-4"
-            src="/img/vehicles/details/11.png"
+            src="/img/vehicles/details/11.webp"
             alt="Interior color"
           />
           <h4 class="font-medium text-xl text-muted-800 dark:text-muted-100">
@@ -103,7 +103,7 @@
         <div>
           <img
             class="mb-4"
-            src="/img/vehicles/details/12.png"
+            src="/img/vehicles/details/12.webp"
             alt="Interior color"
           />
           <h4 class="font-medium text-xl text-muted-800 dark:text-muted-100">
@@ -117,7 +117,7 @@
         <div>
           <img
             class="mb-4"
-            src="/img/vehicles/details/13.png"
+            src="/img/vehicles/details/13.webp"
             alt="Interior color"
           />
           <h4 class="font-medium text-xl text-muted-800 dark:text-muted-100">

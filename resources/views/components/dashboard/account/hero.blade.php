@@ -2,7 +2,7 @@
   <!--Profile block-->
   <div class="text-center w-full max-w-4xl mx-auto my-6">
     <div class="relative h-24 w-24 rounded-full mx-auto mb-4">
-      <img class="rounded-full" src="/img/photo/pp.png" alt="User image" />
+      <img class="rounded-full" src="/img/photo/pp.webp" alt="User image" />
       <button
         class="
           absolute

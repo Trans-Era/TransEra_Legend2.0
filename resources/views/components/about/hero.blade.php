@@ -125,7 +125,7 @@
           <!--Hero image-->
           <img
             class="relative max-w-md mx-auto z-20"
-            src="/img/photo/600x600/4.png"
+            src="/img/photo/600x600/4.webp"
             alt="Hero image"
           />
           <!--Overlay-->

@@ -25,7 +25,7 @@
         >
           <img
             class="h-full w-full object-cover"
-            src="/img/photo/600x600/american.png"
+            src="/img/photo/600x600/american.webp"
             alt="Cars in line"
             width="576"
             height="576"

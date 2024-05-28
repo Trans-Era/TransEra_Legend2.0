@@ -27,9 +27,9 @@ class DatabaseSeeder extends Seeder
         }
 
         $brands = [
-            ['name' =>'Ford', 'year' =>'1903', 'icon' =>'img/brand/logomu.png'],
-            ['name' =>'Chevrolet', 'year' =>'1918', 'icon' =>'img/brand/logoc.png'],
-            ['name' =>'Pontiac', 'year' =>'1926', 'icon' =>'img/brand/logofi.png']
+            ['name' =>'Ford', 'year' =>'1903', 'icon' =>'img/brand/logomu.webp'],
+            ['name' =>'Chevrolet', 'year' =>'1918', 'icon' =>'img/brand/logoc.webp'],
+            ['name' =>'Pontiac', 'year' =>'1926', 'icon' =>'img/brand/logofi.webp']
         ];
         foreach ($brands as $brand) {
             Brand::factory()->create($brand);
@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
             'power' => 450,
             'couple' => 529,
             'timeAcc' => 4.6,
-            'photo' => 'img/car/1/mustang.jpg',
+            'photo' => 'img/car/1/mustang.webp',
             'thumbnail' => 'img/car/1/mustang-wobg.webp',
             'year' => 2020,
             'price' => 300,
@@ -79,8 +79,8 @@ class DatabaseSeeder extends Seeder
             'power' => 240,
             'couple' => 345,
             'timeAcc' => 6.5,
-            'photo' => 'img/car/3/firebird.jpg',
-            'thumbnail' => 'img/car/3/firebird-wobg.png',
+            'photo' => 'img/car/3/firebird.webp',
+            'thumbnail' => 'img/car/3/firebird-wobg.webp',
             'year' => 1982,
             'price' => 150,
             'modele_id' => 3,
@@ -299,51 +299,51 @@ class DatabaseSeeder extends Seeder
         $photos = [
             [
                 'name' =>'lateral',
-                'path' =>'img/car/1/mustang-late.png',
+                'path' =>'img/car/1/mustang-late.webp',
                 'car_id' => 1,
             ],[
                 'name' =>'int0',
-                'path' =>'img/car/1/mustang-int0.jpeg',
+                'path' =>'img/car/1/mustang-int0.webp',
                 'car_id' => 1,
             ],[
                 'name' =>'int1',
-                'path' =>'img/car/1/mustang-int1.png',
+                'path' =>'img/car/1/mustang-int1.webp',
                 'car_id' => 1,
             ],[
                 'name' =>'int2',
-                'path' =>'img/car/1/mustang-int2.jpg',
+                'path' =>'img/car/1/mustang-int2.webp',
                 'car_id' => 1,
             ],[
                 'name' =>'lateral',
-                'path' =>'img/car/2/corvette-lateral.png',
+                'path' =>'img/car/2/corvette-lateral.webp',
                 'car_id' => 2,
             ],[
                 'name' =>'int0',
-                'path' =>'img/car/2/corvette-int0.jpeg',
+                'path' =>'img/car/2/corvette-int0.webp',
                 'car_id' => 2,
             ],[
                 'name' =>'int1',
-                'path' =>'img/car/2/corvette-int1.jpg',
+                'path' =>'img/car/2/corvette-int1.webp',
                 'car_id' => 2,
             ],[
                 'name' =>'int2',
-                'path' =>'img/car/2/corvette-int2.jpg',
+                'path' =>'img/car/2/corvette-int2.webp',
                 'car_id' => 2,
             ],[
                 'name' =>'lateral',
-                'path' =>'img/car/3/firebird-lateral.png',
+                'path' =>'img/car/3/firebird-lateral.webp',
                 'car_id' => 3,
             ],[
                 'name' =>'int0',
-                'path' =>'img/car/3/firebird-int0.jpeg',
+                'path' =>'img/car/3/firebird-int0.webp',
                 'car_id' => 3,
             ],[
                 'name' =>'int1',
-                'path' =>'img/car/3/firebird-int1.jpg',
+                'path' =>'img/car/3/firebird-int1.webp',
                 'car_id' => 3,
             ],[
                 'name' =>'int2',
-                'path' =>'img/car/3/firebird-int2.jpg',
+                'path' =>'img/car/3/firebird-int2.webp',
                 'car_id' => 3
             ]
         ];

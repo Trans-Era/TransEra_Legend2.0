@@ -46,7 +46,7 @@
               duration-300
             "
           >
-            <img src="{{ asset('img/logo/logoWhite.png') }}" />
+            <img src="{{ asset('img/logo/logoWhite.webp') }}" />
           </div>
           <span class="text-2xl">Trans Era Legend</span>
         </a>

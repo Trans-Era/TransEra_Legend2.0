@@ -56,7 +56,7 @@
       ></i>
     </button>
     <!--Logged account-->
-    <img class="h-10 w-10 rounded-full" src="/img/photo/pp.png" alt="" />
+    <img class="h-10 w-10 rounded-full" src="/img/photo/pp.webp" alt="" />
     <div class="font-sans leading-tight">
       <span class="text-xs font-light tracking-wider uppercase text-muted-400">
         Logged in as

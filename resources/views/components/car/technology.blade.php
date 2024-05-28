@@ -35,17 +35,17 @@
     <div class="grid grid-cols-12 gap-4 mb-6">
       <img
         class="col-span-12"
-        src="/img/vehicles/details/10.jpg"
+        src="/img/vehicles/details/10.webp"
         alt="Vehicle image"
       />
       <img
         class="col-span-6"
-        src="/img/vehicles/details/14.png"
+        src="/img/vehicles/details/14.webp"
         alt="Vehicle image"
       />
       <img
         class="col-span-6"
-        src="/img/vehicles/details/15.png"
+        src="/img/vehicles/details/15.webp"
         alt="Vehicle image"
       />
     </div>

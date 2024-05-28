@@ -109,7 +109,7 @@
             <!--Slide 1-->
             <div class="swiper-slide">
               <div class="relative">
-                <img src="/img/testimonials/1.jpg" alt="Testimonial" />
+                <img src="/img/testimonials/1.webp" alt="Testimonial" />
                 <div
                   class="
                     absolute
@@ -154,7 +154,7 @@
             <!--Slide 2-->
             <div class="swiper-slide">
               <div class="relative">
-                <img src="/img/testimonials/6.jpg" alt="Testimonial" />
+                <img src="/img/testimonials/6.webp" alt="Testimonial" />
                 <div
                   class="
                     absolute
@@ -199,7 +199,7 @@
             <!--Slide 3-->
             <div class="swiper-slide">
               <div class="relative">
-                <img src="/img/testimonials/4.png" alt="Testimonial" />
+                <img src="/img/testimonials/4.webp" alt="Testimonial" />
                 <div
                   class="
                     absolute
@@ -244,7 +244,7 @@
             <!--Slide 4-->
             <div class="swiper-slide">
               <div class="relative">
-                <img src="/img/testimonials/4.jpg" alt="Testimonial" />
+                <img src="/img/testimonials/4.webp" alt="Testimonial" />
                 <div
                   class="
                     absolute
@@ -287,7 +287,7 @@
             <!--Slide 5-->
             <div class="swiper-slide">
               <div class="relative">
-                <img src="/img/testimonials/5.jpg" alt="Testimonial" />
+                <img src="/img/testimonials/5.webp" alt="Testimonial" />
                 <div
                   class="
                     absolute
@@ -330,7 +330,7 @@
             <!--Slide 6-->
             <div class="swiper-slide">
               <div class="relative">
-                <img src="/img/testimonials/3.png" alt="Testimonial" />
+                <img src="/img/testimonials/3.webp" alt="Testimonial" />
                 <div
                   class="
                     absolute
@@ -373,7 +373,7 @@
             <!--Slide 7-->
             <div class="swiper-slide">
               <div class="relative">
-                <img src="/img/testimonials/7.jpg" alt="Testimonial" />
+                <img src="/img/testimonials/7.webp" alt="Testimonial" />
                 <div
                   class="
                     absolute

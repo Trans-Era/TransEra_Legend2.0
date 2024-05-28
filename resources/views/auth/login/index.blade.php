@@ -16,7 +16,7 @@
           bg-muted-100
           dark:bg-muted-1000
         "
-        data-background="{{ asset('img/login/city.jpg') }}"
+        data-background="{{ asset('img/login/city.webp') }}"
       ></div>
       <div
         class="

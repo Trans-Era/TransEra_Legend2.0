@@ -40,7 +40,7 @@
       </div>
   
       <div class="w-full max-w-5xl mx-auto">
-        <img src="/img/photo/about-banner1.png" alt="About image" />
+        <img src="/img/photo/about-banner1.webp" alt="About image" />
   
         <!--Text-->
         <div

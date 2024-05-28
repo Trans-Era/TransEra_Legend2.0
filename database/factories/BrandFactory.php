@@ -17,7 +17,7 @@ class BrandFactory extends Factory
     public function definition(): array
     {
         return [
-            'icon' => 'img/brand/1/icon.png',
+            'icon' => 'img/brand/1/icon.webp',
             'name' => fake()->name(),
         ];
     }
