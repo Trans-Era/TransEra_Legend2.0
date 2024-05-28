@@ -66,10 +66,9 @@
               Notre vision
             </h4>
             <p class="font-sans text-sm text-muted-500 dark:text-muted-400"> 
-              Notre engagement envers l'innovation, le service exceptionnel et la préservation 
-              des souvenirs inoubliables se reflète dans chaque véhicule que nous mettons à disposition. 
-              Chez nous, l'entrepreneuriat rencontre la route, donnant naissance à une aventure automobile 
-              extraordinaire.
+            Nous visons à devenir le leader de la location de voitures américaines, en rendant des modèles de 
+            luxe ou de sport comme la Mustang et la Corvette accessibles à tous, tout en offrant un service 
+            clientèle irréprochable.
             </p>
           </div>
           <!--Text block-->
@@ -84,9 +83,9 @@
               Nos valeurs
             </h4>
             <p class="font-sans text-sm text-muted-500 dark:text-muted-400">
-              Notre mission va au-delà de la location de voitures; elle vise à créer des souvenirs durables et à inspirer 
-              une nouvelle génération de passionnés d'automobiles. Chez nous, chaque kilomètre est imprégné de nos valeurs 
-              fondamentales, faisant de chaque voyage une aventure enrichissante.
+              Cela va au-delà de la location de voitures américaine; Nous visons à inspirer une nouvelle 
+              génération de passionnés d'automobiles. Chaque kilomètre en Mustang est imprégné de nos valeurs 
+              fondamentales, faisant de chaque voyage une vrai aventure.
             </p>
           </div>
           <!--Text block-->
@@ -101,9 +100,10 @@
               Pour nos clients
             </h4>
             <p class="font-sans text-sm text-muted-500 dark:text-muted-400">
-              Chez Trans Era Legend, nous visons une clientèle diversifiée et passionnée. Que vous soyez amateur de sensations fortes, 
-              passionné de voitures de caractère, ou simplement en quête d'une expérience unique, nos véhicules sont conçus pour vous. 
-              Rejoignez-nous pour une aventure où la route devient le théâtre de vos passions.
+              Chez Trans Era Legend, nous visons une clientèle diversifiée et passionnée. Que vous soyez amateur 
+              de sensations fortes, passionné de voitures de caractère,de sport ou de luxe, ou simplement en quête 
+              d'une expérience américaine, nos véhicules sont conçus pour vous. Rejoignez-nous pour une aventure 
+              où la route devient le théâtre de vos passions.
             </p>
           </div>
         </div>
@@ -119,7 +119,7 @@
               Performance
             </h4>
             <p class="text-sm text-muted-500 dark:text-muted-400">
-              Des voitures qui transcendent les attentes pour des expériences de conduite incomparables.
+              Mustang, Corvette, Firebird : du sport, du luxe, tout en restant américain.
             </p>
           </div>
           <!--Feature-->
@@ -158,7 +158,7 @@
               Passion
             </h4>
             <p class="text-sm text-muted-500 dark:text-muted-400">
-              Chaque voiture raconte une histoire unique.
+              Chaque voiture vous fera vivre le rêve américain.
             </p>
           </div>
         </div>

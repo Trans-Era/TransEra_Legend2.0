@@ -63,8 +63,9 @@
               Plus d'information ?
             </h2>
             <p class="font-sans text-muted-500 dark:text-muted-400 mt-4">
-              Connectez-vous dès maintenant afin de reserver une de nos voitures. Nous serons prêt à répondre à toutes vos questions et à vous assister dans chaque étape. 
-              Contactez-nous pour une expérience inoubliable.
+              Connectez-vous dès maintenant afin de faire une location d'une de nos voitures. Nous serons prêt à 
+              répondre à toutes vos questions et à vous assister dans chaque étape. Contactez-nous pour une 
+              expérience américaine.
             </p>
             <!-- Buttons -->
             <div class="flex items-center gap-4 mt-8">
