@@ -15,10 +15,10 @@ class LoginController extends Controller
         return view('auth.login.index');
     }
 
-    public function store(LoginRequest $request): View
+    public function store(LoginRequest $request)
     {
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password], isset($request->remember_me))) {
-            return view('dashboard.home.index');
+            return redirect()->route('dashboard.index');
         } else {
             return view('auth.login.index')->withErrors(['email' => 'Mot de passe ou email incorrect.']);
         }    

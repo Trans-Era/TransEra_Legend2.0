@@ -147,7 +147,8 @@
       <ul>
         <li>
           <a
-            href="{{ url('/dashboard') }}"
+            href="#"
+            onclick="document.getElementById('formLogout').submit()"
             class="
               flex
               items-center
@@ -163,11 +164,11 @@
               class="iconify w-5 h-5 text-muted-500"
               data-icon="ph:sign-out-duotone"
             ></i>
-            <form method="POST" action="{{ route('login.toLogout') }}">
+            <span class="font-sans text-muted-800 dark:text-muted-500">
+              Logout
+            </span>
+            <form id="formLogout" method="POST" action="{{ route('login.toLogout') }}">
               @csrf
-              <button type="submit" class="font-sans text-muted-800 dark:text-muted-500">
-                Logout
-              </button>
             </form>
           </a>
         </li>
