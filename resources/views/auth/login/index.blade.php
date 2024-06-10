@@ -126,11 +126,6 @@
                       type="email"
                       name="email"
                     />
-                    @error('email')
-                      <div class="mt-2 text-sm text-red-600">
-                        {{ $message }}
-                      </div>
-                    @enderror
                   </div>
                 </div>
     
@@ -177,6 +172,12 @@
                     />
                   </div>
                 </div>
+                
+                @error('email')
+                  <div class="mt-2 text-sm text-red-600">
+                    {{ $message }}
+                  </div>
+                @enderror
     
                 <!--Remember-->
                 <div class="mt-6 flex items-center justify-between">
