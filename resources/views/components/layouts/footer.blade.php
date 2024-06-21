@@ -368,7 +368,7 @@ dark:bg-muted-1000
   sm:flex-row
   flex-col
   ">
-  <a class="
+  <div class="
   flex
   font-sans font-light
   items-center
@@ -378,7 +378,7 @@ dark:bg-muted-1000
   text-muted-900
   ">
   <span class="text-xl text-muted-100">Trans Era Legend</span>
-  </a>
+</div>
   <p class="text-sm text-muted-400 sm:ml-6 sm:mt-0 mt-4">
   © Trans Era Solution — All Rights Reserved.
   </p>
