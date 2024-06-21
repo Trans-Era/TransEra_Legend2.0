@@ -63,33 +63,8 @@
       <p
         class="font-sans leading-tight mb-5 text-muted-500 dark:text-muted-400"
       >
-      Posez-nous votre question, nous y répondrons dans les plus brefs délais.<br><br> (Si vous n'avez pas de reponse 
-      au bout d'une semaine n'hesitez pas à nous recontacter sur les reseaux via la messagerie ou via notre
-      mail: transeralegend@gmail.com)
+      Posez-nous votre question, nous y répondrons dans les plus brefs délais, 2 jours en moyenne.<br><br> (Pour les demandes urgentes, veuillez nous appeler au +33 7 66 71 32 69.)
       </p>
-      <input
-        class="
-          bg-white
-          dark:bg-muted-700
-          border border-muted-300
-          dark:border-muted-500
-          focus:shadow-xl focus:shadow-muted-400/10
-          dark:focus:shadow-muted-800/10
-          placeholder:text-muted-300
-          dark:placeholder:text-muted-500
-          text-base text-muted-600
-          dark:text-muted-200
-          px-4
-          py-2
-          mb-4
-          transition-all
-          duration-300
-          tw-accessibility
-        "
-        id="name"
-        placeholder="Votre nom"
-        type="name"
-      />
       <input
         class="
           bg-white
