@@ -5,7 +5,8 @@
       devis plus détaillé à ce sujet, nous proposons une offre personnalisée pour chaque demande.
     </p>
   </div>
-  <div
+  <a
+    href="{{ route('contact.index') }}"
     class="
       relative
       font-sans font-normal
@@ -34,5 +35,5 @@
     "
   >
     Contactez nous
-  </div>
+  </a>
 </div>

@@ -41,7 +41,7 @@
           </span>
         </div>
         <a
-          href="#"
+          href="{{ route('contact.index') }}"
           class="
             relative
             font-sans font-normal

@@ -253,7 +253,8 @@
       </div>
     </div>
   </div>
-  <div
+  <a
+    href="{{ route('contact.index') }}"
     class="
       relative
       font-sans font-normal
@@ -282,5 +283,5 @@
     "
   >
     Contactez nous
-  </div>
+  </a>
 </div>
