@@ -5,30 +5,24 @@ import '@purge-icons/generated'
 import Swiper from 'swiper/bundle';
 window.Swiper = Swiper
 
+window.emailjs = emailjs
+  emailjs.init("_B3jA8cUozGsY08Lz");
+
 //Alpine and plugins import
 import Alpine from 'alpinejs'
 import intersect from '@alpinejs/intersect'
-import collapse from '@alpinejs/collapse'
 import persist from '@alpinejs/persist'
-import Tooltip from '@ryangjchandler/alpine-tooltip'
 import emailjs from '@emailjs/browser'
 import { insertBgImages } from './utils/bg'
 
 import './components'
 import './pages'
 
-window.emailjs = emailjs
-emailjs.init("_B3jA8cUozGsY08Lz");
-
 window.Alpine = Alpine
 //Init intersect plugin
 Alpine.plugin(intersect)
-//Init collapse plugin
-Alpine.plugin(collapse)
 //Init persist plugin
 Alpine.plugin(persist)
-//Init tooltip plugin
-Alpine.plugin(Tooltip)
 //Init Alpine store
 Alpine.store('app', {
     init() {
