@@ -1,6 +1,5 @@
 export function sendMail(){
   var params = {
-    name: document.getElementById("name").value,
     email: document.getElementById("email").value,
     body: document.getElementById("body").value,
   };
@@ -11,7 +10,6 @@ export function sendMail(){
   emailjs
     .send(serviceID, templateID, params)
     .then((res)=>{
-      document.getElementById("name").value = "";
       document.getElementById("email").value = "";
       document.getElementById("body").value = "";
       console.log(res);
