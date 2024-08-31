@@ -270,7 +270,7 @@
             <x-theme.toggler />
           </div>
           <a
-            href="/signup.html"
+            href="{{ url('/login') }}"
             class="
               relative
               w-full
@@ -294,7 +294,7 @@
               duration-300
             "
           >
-            Register
+            Connexion
           </a>
         </div>
       </div>

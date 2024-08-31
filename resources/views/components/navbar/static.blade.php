@@ -329,7 +329,7 @@
               </span>
             </label>
           </div>
-          <a href="/signup.html" class="
+          <a href="{{ url('/login') }}" class="
               relative
               w-full
               font-sans font-normal
@@ -351,7 +351,7 @@
               transition-all
               duration-300
             ">
-            Register
+            Connexion
           </a>
         </div>
       </div>
