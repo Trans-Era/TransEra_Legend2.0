@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Car;
 use App\Models\Brand;
+use App\Models\Reservation;
 use Illuminate\View\View;
+use Illuminate\Support\Facades\Auth;
 
 class DashboardController extends Controller
 {
@@ -16,8 +18,7 @@ class DashboardController extends Controller
     public function __invoke(): View
     {
         return view('dashboard.home.index', [
-            'cars' => Car::all(),
-            'brands' => Brand::all(),
+            'reservation' => $this->getLastReservationByUser(Auth::user()),
         ]);
     }
 }

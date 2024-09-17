@@ -30,9 +30,9 @@ Route::get('/about', AboutController::class)->name('about.index');
 Route::get('/error', ErrorController::class)->name('error.index');
 
 Route::get('/cars', \App\Http\Controllers\Car\IndexController::class)->name('cars.index');
-Route::get('/cars/ea-modi-non-odio-unde-ullam', [\App\Http\Controllers\Redirect\RedirectController::class, 'fordRedirect']);
-Route::get('/cars/ipsa-possimus-distinctio-est-sint-necessitatibus-explicabo', [\App\Http\Controllers\Redirect\RedirectController::class, 'C7Redirect']);
-Route::get('/cars/incidunt-rerum-nihil-et-sint-asperiores', [\App\Http\Controllers\Redirect\RedirectController::class, 'firebirdRedirect']);
+Route::get('/cars/mustang', [\App\Http\Controllers\Redirect\RedirectController::class, 'fordRedirect']);
+Route::get('/cars/c7', [\App\Http\Controllers\Redirect\RedirectController::class, 'C7Redirect']);
+Route::get('/cars/firebird', [\App\Http\Controllers\Redirect\RedirectController::class, 'firebirdRedirect']);
 Route::get('/cars/{car:slug}', \App\Http\Controllers\Car\ShowController::class)->name('cars.show');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login.index');

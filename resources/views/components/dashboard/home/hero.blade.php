@@ -1,166 +1,459 @@
-<section
-  class="
-    relative
-    w-full
-    h-screen
-    py-12
-    px-4
-    bg-muted-100
-    dark:bg-muted-900
-    overflow-hidden
-  "
->
-  <div class="absolute top-0 left-0 w-full">
-    <div
-      class="
-        w-full
-        max-w-7xl
-        mx-auto
-        h-16
-        flex
-        items-center
-        justify-between
-        px-4
-      "
-    >
-      <!--Logo-->
-      <a
-        href="{{ url('/') }}"
-        class="
-          flex
-          title-font
-          font-medium
-          items-center
-          text-muted-900
-          dark:text-muted-100
-        "
-      >
-        <span class="font-heading font-light text-2xl ml-3">Trans Era Legend</span>
-      </a>
-
-      <!--Theme toggler-->
-      <div><x-theme.toggler-base/></div>
+<div class="py-8 px-4 md:px-6 pb-24">
+  <!--Title-->
+  <div class="flex items-center mb-6">
+    <div>
+      <h1 class="font-sans text-2xl lg:text-3xl text-muted-800 dark:text-white">
+        My Dashboard
+      </h1>
     </div>
   </div>
 
-  <div class="w-full h-full flex items-center justify-center">
-    <div class="relative w-full max-w-2xl mx-auto">
-      <!--Error-->
-      <div class="flex flex-col gap-4 mt-12">
-        <div class="relative w-full">
-          <img
-            class="
-              relative
-              block
-              dark:hidden
-              w-full
-              max-w-sm
-              mx-auto
-              object-contain
-              z-20
-            "
-            src="/img/illustrations/404.svg"
-            alt="Error illustration"
-            width="384"
-            height="384"
-          />
-          <img
-            class="
-              relative
-              hidden
-              dark:block
-              w-full
-              max-w-sm
-              mx-auto
-              object-contain
-              z-20
-            "
-            src="/img/illustrations/404-dark.svg"
-            alt="Error illustration"
-            width="384"
-            height="384"
-          />
-          <div
-            class="
-              absolute
-              inset-x-0
-              top-1/2
-              -translate-y-1/2
-              hidden
-              ptablet:block
-              ltablet:block
-              lg:block
-              ptablet:-translate-x-10
-              ltablet:-translate-x-24
-              lg:-translate-x-24
-              z-10
-              text-center
-            "
-          >
-            <span
+  <!--Grid-->
+  <div class="grid ltablet:grid-cols-12 lg:grid-cols-12 gap-6">
+    <!--Grid item-->
+    <div class="ltablet:col-span-8 lg:col-span-8">
+      <!--Inner Grid-->
+      <div
+        class="
+          h-full
+          grid
+          ltablet:grid-cols-2
+          lg:grid-cols-2
+          border border-muted-200
+          dark:border-muted-800
+          bg-white
+          dark:bg-muted-900
+        "
+      >
+      
+        <!--Left-->
+        <div class="flex items-center justify-center py-8">
+          <div>
+            <img
+              class="max-w-[320px] mx-auto"
+              src="/img/vehicles/grid/6.png"
+              alt="Vehicle"
+            />
+          </div>
+        </div>
+        <!--Right-->
+        <div
+          class="
+            w-full
+            flex flex-col
+            p-8
+            border-l border-muted-200
+            dark:border-muted-800
+          "
+        >
+          <!--Title-->
+          <div class="flex items-center gap-4 mb-10">
+            <div class="leading-tight">
+              <h3
+                class="
+                  font-sans font-semibold
+                  text-xl text-muted-800
+                  dark:text-muted-50
+                "
+              >
+                Votre réservation
+              </h3>
+              <p class="font-sans text-xs text-muted-400">En prération</p>
+            </div>
+            <div class="ml-auto">
+              <span
+                class="
+                  font-sans font-light
+                  text-lg text-muted-800
+                  dark:text-muted-50
+                "
+              >
+                24 mai au 26 mai 2024
+              </span>
+            </div>
+          </div>
+          <!--Maintenance-->
+          <div class="w-full mt-auto">
+            <!--Inner grid-->
+            <div class="grid grid-cols-2 gap-4">
+              <!--Grid item-->
+              <div class="flex items-center gap-2 font-sans text-muted-500">
+                <i
+                  class="iconify w-4 h-4 text-emerald-500"
+                  data-icon="lucide:check"
+                ></i>
+                <span class="text-xs lg:text-sm">Carte d'identité</span>
+              </div>
+              <!--Grid item-->
+              <div class="flex items-center gap-2 font-sans text-muted-500">
+                <i
+                  class="iconify w-4 h-4 text-emerald-500"
+                  data-icon="lucide:check"
+                ></i>
+                <span class="text-xs lg:text-sm">Permis</span>
+              </div>
+              <!--Grid item-->
+              <div class="flex items-center gap-2 font-sans text-muted-500">
+                <i
+                  class="iconify w-4 h-4 text-emerald-500"
+                  data-icon="lucide:check"
+                ></i>
+                <span class="text-xs lg:text-sm">Justificatif de domicile</span>
+              </div>
+              <!--Grid item-->
+              <div class="flex items-center gap-2 font-sans text-muted-500">
+                <i
+                  class="iconify w-4 h-4 text-emerald-500"
+                  data-icon="lucide:check"
+                ></i>
+                <span class="text-xs lg:text-sm">Accompte</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Grid item-->
+    <div class="ltablet:col-span-4 lg:col-span-4">
+      <!--Card-->
+      <div
+        class="
+          h-full
+          flex flex-col
+          p-8
+          border border-muted-200
+          dark:border-muted-800
+          bg-white
+          dark:bg-muted-900
+        "
+      >
+        <!--Title-->
+        <div class="flex items-center gap-4 mb-10">
+          <div class="leading-tight">
+            <h3
               class="
-                font-heading font-extrabold
-                text-[15rem]
-                ptablet:text-[22rem]
-                ltablet:text-[26rem]
-                lg:text-[26rem]
-                text-black
-                dark:text-white
-                opacity-5
+                font-sans font-semibold
+                text-xl text-muted-800
+                dark:text-muted-50
               "
             >
-              503
+              Promo du jours !
+            </h3>
+            <p class="font-sans text-xs text-muted-400">For next maintenance</p>
+          </div>
+          <div class="ml-auto">
+            <span
+              class="
+                font-sans font-semibold
+                text-xl text-muted-800
+                dark:text-muted-50
+              "
+            >
+              -50%
             </span>
           </div>
         </div>
-        <div class="mt-4 text-center relative z-20">
-          <h2
+        <!--Tier-->
+        <div class="w-full mb-4">
+          <div class="flex items-center gap-2 mb-4">
+            <div
+              class="
+                h-9
+                w-9
+                flex
+                items-center
+                justify-center
+                rounded-full
+                border-2 border-primary-600
+                bg-primary-500/20
+                text-primary-500
+              "
+            >
+              <span class="font-sans font-semibold text-sm">50</span>
+            </div>
+            <div>
+              <h4
+                class="font-sans font-medium text-muted-800 dark:text-muted-50"
+              >
+                Promotion's name
+              </h4>
+              <p class="font-sans text-xs text-muted-400">Des promotions qui sont temporaire</p>
+            </div>
+          </div>
+          <div
             class="
-              font-heading
-              text-4xl
-              leading-9
-              font-light
-              text-muted-800
-              dark:text-muted-100
-              mb-2
+              font-sans
+              text-xs
+              lg:text-sm
+              text-muted-500
+              dark:text-muted-400
             "
           >
-            Maintenance
-          </h2>
-          <p class="w-full max-w-md mx-auto font-sans text-lg text-muted-400">
-            Ne vous inquiétez pas, cette situation est temporaire. Nous reviendrons avec votre tableau de bord magnifique et doté de fonctionnalités très attrayantes :)
-          </p>
-          <!--Link-->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si
+              longus, levis dictata sunt. Idem iste, inquam, de voluptate quid
+              sentit? Quis est, qui non oderit
+            </p>
+          </div>
+        </div>
+        <!--Action-->
+        <div class="w-full mt-auto">
+          <!--Button-->
           <a
+            href="#"
             class="
-              group
+              relative
+              font-sans font-normal
               inline-flex
               items-center
-              gap-2
-              text-primary-500
-              hover:text-primary-400
-              transition-colors
+              justify-center
+              leading-5
+              no-underline
+              mt-6
+              w-full
+              space-x-1
+              text-white
+              bg-muted-800
+              dark:bg-primary-600
+              h-12
+              px-5
+              py-3
+              text-base
+              hover:bg-muted-700
+              dark:hover:bg-primary-500
+              hover:shadow-xl hover:shadow-muted-300/20
+              dark:hover:shadow-primary-600/20
+              tw-accessibility
+              transition-all
               duration-300
-              cursor-pointer
-              mt-4
             "
-            onclick="history.go(-1)"
           >
-            <i
+            Schedule Maintenance
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--Grid item-->
+    <div class="ltablet:col-span-8 lg:col-span-8">
+      <!--Inner Grid-->
+      <div
+        class="
+          h-full
+          grid
+          ltablet:grid-cols-2
+          lg:grid-cols-2
+          border border-muted-200
+          dark:border-muted-800
+          bg-white
+          dark:bg-muted-900
+        "
+      >
+        <!--Left-->
+        <div class="flex items-center justify-center py-8">
+          <div>
+            <img
+              class="max-w-[320px] mx-auto"
+              src="/img/vehicles/grid/6.png"
+              alt="Vehicle"
+            />
+          </div>
+        </div>
+        <!--Right-->
+        <div
+          class="
+            w-full
+            flex flex-col
+            p-8
+            border-l border-muted-200
+            dark:border-muted-800
+          "
+        >
+          <!--Title-->
+          <div class="flex items-center gap-4 mb-10">
+            <div class="leading-tight">
+              <h3
+                class="
+                  font-sans font-semibold
+                  text-xl text-muted-800
+                  dark:text-muted-50
+                "
+              >
+                Votre prochaine Réservation
+              </h3>
+              <p class="font-sans text-xs text-muted-400">En préparation</p>
+            </div>
+            <div class="ml-auto">
+              <span
+                class="
+                  font-sans font-light
+                  text-lg text-muted-800
+                  dark:text-muted-50
+                "
+              >
+                XX month to XX month
+              </span>
+            </div>
+          </div>
+          <!--Maintenance-->
+          <div class="w-full mt-auto">
+            <!--Inner grid-->
+            <div class="grid grid-cols-2 gap-4">
+              <!--Grid item-->
+              <div class="flex items-center gap-2 font-sans text-muted-500">
+                <i
+                  class="iconify w-4 h-4 text-emerald-500"
+                  data-icon="lucide:check"
+                ></i>
+                <span class="text-xs lg:text-sm">Carte d'identité</span>
+              </div>
+              <!--Grid item-->
+              <div class="flex items-center gap-2 font-sans text-muted-500">
+                <i
+                  class="iconify w-4 h-4 text-emerald-500"
+                  data-icon="lucide:check"
+                ></i>
+                <span class="text-xs lg:text-sm">Permis</span>
+              </div>
+              <!--Grid item-->
+              <div class="flex items-center gap-2 font-sans text-muted-500">
+                <i
+                  class="iconify w-4 h-4 text-emerald-500"
+                  data-icon="lucide:check"
+                ></i>
+                <span class="text-xs lg:text-sm">Justificatif de domicile</span>
+              </div>
+              <!--Grid item-->
+              <div class="flex items-center gap-2 font-sans text-muted-500">
+                <i
+                  class="iconify w-4 h-4 text-emerald-500"
+                  data-icon="lucide:check"
+                ></i>
+                <span class="text-xs lg:text-sm">Accompte</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Grid item-->
+    <div class="ltablet:col-span-4 lg:col-span-4">
+      <!--Card-->
+      <div
+        class="
+          h-full
+          flex flex-col
+          p-8
+          border border-muted-200
+          dark:border-muted-800
+          bg-white
+          dark:bg-muted-900
+        "
+      >
+        <!--Title-->
+        <div class="flex items-center gap-4 mb-10">
+          <div class="leading-tight">
+            <h3
               class="
-                iconify
-                w-5
-                h-5
-                group-hover:-translate-x-1
-                transition-transform
-                duration-300
+                font-sans font-semibold
+                text-xl text-muted-800
+                dark:text-muted-50
               "
-              data-icon="lucide:arrow-left"
-            ></i>
-            <span class="font-sans font-medium text-lg">Retour</span>
+            >
+              Concours
+            </h3>
+            <p class="font-sans text-xs text-muted-400">Nombre de participant</p>
+          </div>
+          <div class="ml-auto">
+            <span
+              class="
+                font-sans font-semibold
+                text-xl text-muted-800
+                dark:text-muted-50
+              "
+            >
+              1000
+            </span>
+          </div>
+        </div>
+        <!--Tier-->
+        <div class="w-full mb-4">
+          <div class="flex items-center gap-2 mb-4">
+            <div
+              class="
+                h-9
+                w-9
+                flex
+                items-center
+                justify-center
+                rounded-full
+                border-2 border-primary-600
+                bg-primary-500/20
+                text-primary-500
+              "
+            >
+              <span class="font-sans font-semibold text-sm">10</span>
+            </div>
+            <div>
+              <h4
+                class="font-sans font-medium text-muted-800 dark:text-muted-50"
+              >
+                Edition N°XX
+              </h4>
+              <p class="font-sans text-xs text-muted-400">Condition et cadeaux</p>
+            </div>
+          </div>
+          <div
+            class="
+              font-sans
+              text-xs
+              lg:text-sm
+              text-muted-500
+              dark:text-muted-400
+            "
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si
+              longus, levis dictata sunt. Idem iste, inquam, de voluptate quid
+              sentit? Quis est, qui non oderit
+            </p>
+          </div>
+        </div>
+        <!--Action-->
+        <div class="w-full mt-auto">
+          <!--Button-->
+          <a
+            href="#"
+            class="
+              relative
+              font-sans font-normal
+              inline-flex
+              items-center
+              justify-center
+              leading-5
+              no-underline
+              mt-6
+              w-full
+              space-x-1
+              text-white
+              bg-muted-800
+              dark:bg-primary-600
+              h-12
+              px-5
+              py-3
+              text-base
+              hover:bg-muted-700
+              dark:hover:bg-primary-500
+              hover:shadow-xl hover:shadow-muted-300/20
+              dark:hover:shadow-primary-600/20
+              tw-accessibility
+              transition-all
+              duration-300
+            "
+          >
+            Je veux participer !
           </a>
         </div>
       </div>
     </div>
   </div>
-</section>
+</div>

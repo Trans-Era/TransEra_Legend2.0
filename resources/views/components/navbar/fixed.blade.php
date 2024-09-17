@@ -269,7 +269,7 @@
             <!--Dark mode-->
             <x-theme.toggler />
           </div>
-          <a
+          <!--<a
             href="{{ url('/login') }}"
             class="
               relative
@@ -295,7 +295,7 @@
             "
           >
             Connexion
-          </a>
+          </a>-->
         </div>
       </div>
 

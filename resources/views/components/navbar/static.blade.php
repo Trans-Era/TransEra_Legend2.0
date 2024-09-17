@@ -329,7 +329,7 @@
               </span>
             </label>
           </div>
-          <a href="{{ url('/login') }}" class="
+          <!--<a href="{{ url('/login') }}" class="
               relative
               w-full
               font-sans font-normal
@@ -352,7 +352,7 @@
               duration-300
             ">
             Connexion
-          </a>
+          </a>-->
         </div>
       </div>
 
@@ -420,7 +420,7 @@
             </span>
           </label>
         </div>
-        @if(Auth::check())
+        <!--@if(Auth::check())
           <a href="{{ url('/account') }}" class="
             relative
             font-sans font-normal
@@ -468,7 +468,7 @@
             ">
             <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="lucide:user" class="iconify w-4 h-4 iconify--lucide"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></g></svg>
           </a>
-        @endif
+        @endif-->
       </div>
     </div>
   </div>
