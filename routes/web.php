@@ -35,16 +35,16 @@ Route::get('/cars/c7', [\App\Http\Controllers\Redirect\RedirectController::class
 Route::get('/cars/firebird', [\App\Http\Controllers\Redirect\RedirectController::class, 'firebirdRedirect']);
 Route::get('/cars/{car:slug}', \App\Http\Controllers\Car\ShowController::class)->name('cars.show');
 
-Route::get('/login', [LoginController::class, 'index'])->name('login.index');
-Route::post('/login', [LoginController::class, 'store'])->name('login.store');
-Route::post('/toLogout', [LoginController::class, 'toLogout'])->name('login.toLogout');
+//Route::get('/login', [LoginController::class, 'index'])->name('login.index');
+//Route::post('/login', [LoginController::class, 'store'])->name('login.store');
+//Route::post('/toLogout', [LoginController::class, 'toLogout'])->name('login.toLogout');
 
-Route::get('/register', [RegisterController::class, 'index'])->name('register.index');
-Route::post('/register', [RegisterController::class, 'createUser'])->name('register.createUser');
+//Route::get('/register', [RegisterController::class, 'index'])->name('register.index');
+//Route::post('/register', [RegisterController::class, 'createUser'])->name('register.createUser');
 
 
-Route::middleware('auth')->group(function () {
+/*Route::middleware('auth')->group(function () {
     Route::get('/dashboard', DashboardController::class)->name('dashboard.index');
     Route::get('/account', AccountController::class)->name('account.index');
     Route::put('/account', [AccountController::class, 'update'])->name('account.update');
-});
+});*/
