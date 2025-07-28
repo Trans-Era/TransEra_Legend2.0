@@ -17,8 +17,14 @@ class DashboardController extends Controller
 
     public function __invoke(): View
     {
+        $user = Auth::user();
+
+        $lastReservation = $user ? $user->getLastReservation() : null;
+        $penultimateReservation = $user ? $user->getLastReservation() : null;
+        
         return view('dashboard.home.index', [
-            'reservation' => $this->getLastReservationByUser(Auth::user()),
+            'lastReservation' => $lastReservation,
+            'penultimateReservation' => $penultimateReservation
         ]);
     }
 }

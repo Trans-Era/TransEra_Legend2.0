@@ -12,7 +12,8 @@
   <div class="grid ltablet:grid-cols-12 lg:grid-cols-12 gap-6">
     <!--Grid item-->
     <div class="ltablet:col-span-8 lg:col-span-8">
-      <!--Inner Grid-->
+      @if ($lastReservation)
+      <!-- Card avec la dernière réservation -->
       <div
         class="
           h-full
@@ -25,8 +26,7 @@
           dark:bg-muted-900
         "
       >
-      
-        <!--Left-->
+        <!-- Left -->
         <div class="flex items-center justify-center py-8">
           <div>
             <img
@@ -36,7 +36,7 @@
             />
           </div>
         </div>
-        <!--Right-->
+        <!-- Right -->
         <div
           class="
             w-full
@@ -46,7 +46,7 @@
             dark:border-muted-800
           "
         >
-          <!--Title-->
+          <!-- Title -->
           <div class="flex items-center gap-4 mb-10">
             <div class="leading-tight">
               <h3
@@ -58,7 +58,9 @@
               >
                 Votre réservation
               </h3>
-              <p class="font-sans text-xs text-muted-400">En prération</p>
+              <p class="font-sans text-xs text-muted-400">
+                En préparation
+              </p>
             </div>
             <div class="ml-auto">
               <span
@@ -68,15 +70,16 @@
                   dark:text-muted-50
                 "
               >
-                24 mai au 26 mai 2024
+                {{ $lastReservation->start_date->format('d M') }} au
+                {{ $lastReservation->end_date->format('d M Y') }}
               </span>
             </div>
           </div>
-          <!--Maintenance-->
+          <!-- Maintenance -->
           <div class="w-full mt-auto">
-            <!--Inner grid-->
+            <!-- Inner grid -->
             <div class="grid grid-cols-2 gap-4">
-              <!--Grid item-->
+              <!-- Grid item -->
               <div class="flex items-center gap-2 font-sans text-muted-500">
                 <i
                   class="iconify w-4 h-4 text-emerald-500"
@@ -84,7 +87,7 @@
                 ></i>
                 <span class="text-xs lg:text-sm">Carte d'identité</span>
               </div>
-              <!--Grid item-->
+              <!-- Grid item -->
               <div class="flex items-center gap-2 font-sans text-muted-500">
                 <i
                   class="iconify w-4 h-4 text-emerald-500"
@@ -92,7 +95,7 @@
                 ></i>
                 <span class="text-xs lg:text-sm">Permis</span>
               </div>
-              <!--Grid item-->
+              <!-- Grid item -->
               <div class="flex items-center gap-2 font-sans text-muted-500">
                 <i
                   class="iconify w-4 h-4 text-emerald-500"
@@ -100,7 +103,7 @@
                 ></i>
                 <span class="text-xs lg:text-sm">Justificatif de domicile</span>
               </div>
-              <!--Grid item-->
+              <!-- Grid item -->
               <div class="flex items-center gap-2 font-sans text-muted-500">
                 <i
                   class="iconify w-4 h-4 text-emerald-500"
@@ -112,6 +115,70 @@
           </div>
         </div>
       </div>
+    @else
+      <!-- Card pour aucune réservation -->
+      <div
+        class="
+          h-full
+          flex
+          items-center
+          justify-center
+          border border-muted-200
+          dark:border-muted-800
+          bg-white
+          dark:bg-muted-900
+          p-8
+        "
+      >
+        <div class="text-center">
+          <h3
+            class="
+              font-sans font-semibold
+              text-xl text-muted-800
+              dark:text-muted-50
+              mb-4
+            "
+          >
+            Aucune réservation trouvée
+          </h3>
+          <p class="font-sans text-sm text-muted-400 mb-6">
+            Vous n'avez pas encore de réservation. Pourquoi ne pas en créer une ?
+          </p>
+          <!--Button-->
+        <a
+          href="{{ url('/cars') }}"
+          class="
+            relative
+            font-sans font-normal
+            inline-flex
+            items-center
+            justify-center
+            leading-5
+            no-underline
+            mt-6
+            w-full
+            space-x-1
+            text-white
+            bg-muted-800
+            dark:bg-primary-600
+            h-12
+            px-5
+            py-3
+            text-base
+            hover:bg-muted-700
+            dark:hover:bg-primary-500
+            hover:shadow-xl hover:shadow-muted-300/20
+            dark:hover:shadow-primary-600/20
+            tw-accessibility
+            transition-all
+            duration-300
+          "
+          >
+            Consulter la flotte
+        </a>
+        </div>
+      </div>
+    @endif
     </div>
     <!--Grid item-->
     <div class="ltablet:col-span-4 lg:col-span-4">
@@ -137,7 +204,7 @@
                 dark:text-muted-50
               "
             >
-              Promo du jours !
+              Promo du jours
             </h3>
             <p class="font-sans text-xs text-muted-400">For next maintenance</p>
           </div>
@@ -235,106 +302,174 @@
     </div>
     <!--Grid item-->
     <div class="ltablet:col-span-8 lg:col-span-8">
-      <!--Inner Grid-->
-      <div
-        class="
-          h-full
-          grid
-          ltablet:grid-cols-2
-          lg:grid-cols-2
-          border border-muted-200
-          dark:border-muted-800
-          bg-white
-          dark:bg-muted-900
-        "
-      >
-        <!--Left-->
-        <div class="flex items-center justify-center py-8">
-          <div>
-            <img
-              class="max-w-[320px] mx-auto"
-              src="/img/vehicles/grid/6.png"
-              alt="Vehicle"
-            />
-          </div>
-        </div>
-        <!--Right-->
+        @if ($penultimateReservation)
+        <!-- Card avec l'avant-dernière réservation -->
         <div
           class="
-            w-full
-            flex flex-col
-            p-8
-            border-l border-muted-200
+            h-full
+            grid
+            ltablet:grid-cols-2
+            lg:grid-cols-2
+            border border-muted-200
             dark:border-muted-800
+            bg-white
+            dark:bg-muted-900
           "
         >
-          <!--Title-->
-          <div class="flex items-center gap-4 mb-10">
-            <div class="leading-tight">
-              <h3
-                class="
-                  font-sans font-semibold
-                  text-xl text-muted-800
-                  dark:text-muted-50
-                "
-              >
-                Votre prochaine Réservation
-              </h3>
-              <p class="font-sans text-xs text-muted-400">En préparation</p>
-            </div>
-            <div class="ml-auto">
-              <span
-                class="
-                  font-sans font-light
-                  text-lg text-muted-800
-                  dark:text-muted-50
-                "
-              >
-                XX month to XX month
-              </span>
+          <!-- Left -->
+          <div class="flex items-center justify-center py-8">
+            <div>
+              <img
+                class="max-w-[320px] mx-auto"
+                src="/img/vehicles/grid/6.png"
+                alt="Vehicle"
+              />
             </div>
           </div>
-          <!--Maintenance-->
-          <div class="w-full mt-auto">
-            <!--Inner grid-->
-            <div class="grid grid-cols-2 gap-4">
-              <!--Grid item-->
-              <div class="flex items-center gap-2 font-sans text-muted-500">
-                <i
-                  class="iconify w-4 h-4 text-emerald-500"
-                  data-icon="lucide:check"
-                ></i>
-                <span class="text-xs lg:text-sm">Carte d'identité</span>
+          <!-- Right -->
+          <div
+            class="
+              w-full
+              flex flex-col
+              p-8
+              border-l border-muted-200
+              dark:border-muted-800
+            "
+          >
+            <!-- Title -->
+            <div class="flex items-center gap-4 mb-10">
+              <div class="leading-tight">
+                <h3
+                  class="
+                    font-sans font-semibold
+                    text-xl text-muted-800
+                    dark:text-muted-50
+                  "
+                >
+                  Votre avant-dernière réservation
+                </h3>
+                <p class="font-sans text-xs text-muted-400">En préparation</p>
               </div>
-              <!--Grid item-->
-              <div class="flex items-center gap-2 font-sans text-muted-500">
-                <i
-                  class="iconify w-4 h-4 text-emerald-500"
-                  data-icon="lucide:check"
-                ></i>
-                <span class="text-xs lg:text-sm">Permis</span>
+              <div class="ml-auto">
+                <span
+                  class="
+                    font-sans font-light
+                    text-lg text-muted-800
+                    dark:text-muted-50
+                  "
+                >
+                  {{ $penultimateReservation->start_date->format('d M') }} au
+                  {{ $penultimateReservation->end_date->format('d M Y') }}
+                </span>
               </div>
-              <!--Grid item-->
-              <div class="flex items-center gap-2 font-sans text-muted-500">
-                <i
-                  class="iconify w-4 h-4 text-emerald-500"
-                  data-icon="lucide:check"
-                ></i>
-                <span class="text-xs lg:text-sm">Justificatif de domicile</span>
-              </div>
-              <!--Grid item-->
-              <div class="flex items-center gap-2 font-sans text-muted-500">
-                <i
-                  class="iconify w-4 h-4 text-emerald-500"
-                  data-icon="lucide:check"
-                ></i>
-                <span class="text-xs lg:text-sm">Accompte</span>
+            </div>
+            <!-- Maintenance -->
+            <div class="w-full mt-auto">
+              <!-- Inner grid -->
+              <div class="grid grid-cols-2 gap-4">
+                <!-- Grid item -->
+                <div class="flex items-center gap-2 font-sans text-muted-500">
+                  <i
+                    class="iconify w-4 h-4 text-emerald-500"
+                    data-icon="lucide:check"
+                  ></i>
+                  <span class="text-xs lg:text-sm">Carte d'identité</span>
+                </div>
+                <!-- Grid item -->
+                <div class="flex items-center gap-2 font-sans text-muted-500">
+                  <i
+                    class="iconify w-4 h-4 text-emerald-500"
+                    data-icon="lucide:check"
+                  ></i>
+                  <span class="text-xs lg:text-sm">Permis</span>
+                </div>
+                <!-- Grid item -->
+                <div class="flex items-center gap-2 font-sans text-muted-500">
+                  <i
+                    class="iconify w-4 h-4 text-emerald-500"
+                    data-icon="lucide:check"
+                  ></i>
+                  <span class="text-xs lg:text-sm">Justificatif de domicile</span>
+                </div>
+                <!-- Grid item -->
+                <div class="flex items-center gap-2 font-sans text-muted-500">
+                  <i
+                    class="iconify w-4 h-4 text-emerald-500"
+                    data-icon="lucide:check"
+                  ></i>
+                  <span class="text-xs lg:text-sm">Accompte</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      @else
+    <!-- Card pour aucune avant-dernière réservation -->
+    <div
+      class="
+        h-full
+        flex
+        items-center
+        justify-center
+        border border-muted-200
+        dark:border-muted-800
+        bg-white
+        dark:bg-muted-900
+        p-8
+      "
+    >
+      <div class="text-center">
+        <h3
+          class="
+            font-sans font-semibold
+            text-xl text-muted-800
+            dark:text-muted-50
+            mb-4
+          "
+        >
+          Aucune avant-dernière réservation trouvée
+        </h3>
+        <p class="font-sans text-sm text-muted-400 mb-6">
+          Vous n'avez pas encore assez de réservations pour afficher une
+          avant-dernière réservation.
+        </p>
+        <!--Button-->
+        <a
+          href="{{ url('/cars') }}"
+          class="
+            relative
+            font-sans font-normal
+            inline-flex
+            items-center
+            justify-center
+            leading-5
+            no-underline
+            mt-6
+            w-full
+            space-x-1
+            text-white
+            bg-muted-800
+            dark:bg-primary-600
+            h-12
+            px-5
+            py-3
+            text-base
+            hover:bg-muted-700
+            dark:hover:bg-primary-500
+            hover:shadow-xl hover:shadow-muted-300/20
+            dark:hover:shadow-primary-600/20
+            tw-accessibility
+            transition-all
+            duration-300
+          "
+          >
+            Consulter la flotte
+        </a>
       </div>
     </div>
+  @endif
+</div>
+
     <!--Grid item-->
     <div class="ltablet:col-span-4 lg:col-span-4">
       <!--Card-->

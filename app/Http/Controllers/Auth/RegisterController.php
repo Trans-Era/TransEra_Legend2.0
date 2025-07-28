@@ -38,9 +38,9 @@ class RegisterController extends Controller
 
         // Si la validation réussit, appelez la fonction createUser pour créer un nouvel utilisateur
         $user = User::create([
-            'name' => 'Utilisateur',
-            'birth' => '01.01.1900',
-            'adress' => '1 rue du Luxembourg, Belval',
+            'name' => '',
+            'birth' => '',
+            'adress' => '',
             'email' => $request['email'],
             'password' => Hash::make($request['password']),
             'cgu' => 'accepted'

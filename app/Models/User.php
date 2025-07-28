@@ -50,4 +50,20 @@ class User extends Authenticatable
     {
         return $this->hasMany(Reservation::class);
     }
+
+    public function getLastReservation()
+    {
+        return $this->reservations()
+                    ->orderBy('created_at', 'desc')
+                    ->first();
+    }
+
+    // Avant-dernière réservation
+    public function getPenultimateReservation()
+    {
+        return $this->reservations()
+                    ->orderBy('created_at', 'desc')
+                    ->skip(1) // Saute la première réservation
+                    ->first(); // Prend la suivante
+    }
 }

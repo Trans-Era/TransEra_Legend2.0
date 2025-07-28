@@ -16,14 +16,6 @@ class Reservation extends Model
         'end_date',
     ];
 
-    public function getLastReservationByUser(User $user) : Reservation
-    {
-        $lastReservation = Reservation::where('user_id', $user->id)
-                                    ->orderBy('created_at', 'desc')
-                                    ->first();
-        return $lastReservation;
-    }
-
     // Définir la relation avec le modèle User
     public function user()
     {

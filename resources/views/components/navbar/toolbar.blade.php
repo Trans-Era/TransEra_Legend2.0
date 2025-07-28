@@ -61,7 +61,7 @@
       <span class="text-xs font-light tracking-wider uppercase text-muted-400">
         Logged in as
       </span>
-<h4 class="font-sans font-medium text-muted-800 dark:text-white">{{ Auth::user()->name }}</h4>
+      <h4 class="font-sans font-medium text-muted-800 dark:text-white">{{ Auth::user()->name ?: 'Utilisateur' }}</h4>
     </div>
   </div>
   <div class="flex items-center gap-2">

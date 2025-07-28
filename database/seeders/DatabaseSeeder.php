@@ -59,7 +59,7 @@ class DatabaseSeeder extends Seeder
             'brand_id' => 1,
             'type_id' => 1,
             'slug' => 'ford-mustang-gt-v8-2020',
-        ],[
+        ]/*,[
             'name' => 'Corvette C7',
             'description' => 'Une symphonie de performance. Motorisation ronflante, allure racée, technologie de pointe. La Corvette est une supercar qui repousse les limites de l excitation.',
             'power' => 466,
@@ -73,7 +73,7 @@ class DatabaseSeeder extends Seeder
             'brand_id' => 2,
             'type_id' => 2,
             'slug' => 'chevrolet-corvette-c7',
-        ],[
+        ]*/,[
             'name' => 'Firebird GTA',
             'description' => 'Puissance et style incarnés. Lignes aérodynamiques, allure agressive, intérieur retro-futuriste. Une légende indémodable qui est cette Firebird Trans Am GTA de 1989, la Firebird brûle l asphalte avec une intensité inégalée.',
             'power' => 240,
@@ -93,11 +93,11 @@ class DatabaseSeeder extends Seeder
         }
 
         $descriptions = [
-            [
+            /*[
                 'name' => 'info1',
                 'value' => 'Full option',
                 'car_id' => 1,
-            ],[
+            ],*/[
                 'name' =>'info1',
                 'value' =>'Fastback',
                 'car_id' => 1,
@@ -161,7 +161,7 @@ class DatabaseSeeder extends Seeder
                 'name' =>'interior2',
                 'value' =>'Que ce soit par temps froid ou chaud, ces fonctionnalités offrent une expérience de conduite plus agréable.',
                 'car_id' => 1,
-            ],[
+            ]/*,[
                 'name' =>'info1',
                 'value' =>'Roadster',
                 'car_id' => 2,
@@ -225,70 +225,70 @@ class DatabaseSeeder extends Seeder
                 'name' =>'interior2',
                 'value' =>'Plongez dans l élégance ténébreuse du "all black", une symphonie de puissance et de mystère.',
                 'car_id' => 2,
-            ],[
+            ]*/,[
                 'name' =>'info1',
                 'value' =>'Roadster',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'info2',
                 'value' =>'GBA Black',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'info3',
                 'value' =>'Roue 16" Alluminium',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'info4',
                 'value' =>'V8 5.7L',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'design',
                 'value' =>'Plongez dans l univers légendaire de la Firebird, un véritable symbole de l ingéniosité automobile. Inspirée du mythique kit2000 de la célèbre série américaine, cette voiture incarne la fusion parfaite entre la technologie futuriste et le design rétro.',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'miniTitre1',
                 'value' =>'Design rétro',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'miniTitre2',
                 'value' =>'Technologie escamotable',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'miniTitre3',
                 'value' =>'Compteur rétro',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'mini1',
                 'value' =>'Avec ses lignes longues et élancées, ses dimensions à l américaine et ses phares escamotables, elle incarne parfaitement l esprit iconique des muscle cars.',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'mini2',
                 'value' =>'Cette technologie, bien que simple, est devenue une caractéristique emblématique de la Firebird Trans Am et a contribué à son attrait visuel distinctif.',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'mini3',
                 'value' =>'De nombreux cadrans rectangulaires et circulaires affichent une multitude d informations, donnant l impression de se trouver dans le cockpit d un engin aéronautique.',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'principalInterior',
-                'value' =>'L intérieur de cette Trans Am  est un mélange de rétro et de futuriste. Les sièges en cuir sport offrent un excellent soutien latéral, tandis que le tableau de bord est doté de nombreux cadrans et indicateurs, donnant à l habitacle une allure de cockpit d avion. Offrant une expérience de conduite agréable et immersive.',
-                'car_id' => 3,
+                'value' =>'L intérieur de cette Trans Am  est un mélange de rétro et de futurisme. Les sièges en cuir sport offrent un excellent soutien latéral, tandis que le tableau de bord est doté de nombreux cadrans et indicateurs, donnant à l habitacle une allure de cockpit d avion. Offrant une expérience de conduite agréable et immersive.',
+                'car_id' => 2,
             ],[
                 'name' =>'interiorTitle1',
-                'value' =>'Le T-Top emblème',
-                'car_id' => 3,
+                'value' =>'Phare escamotable',
+                'car_id' => 2,
             ],[
                 'name' =>'interiorTitle2',
                 'value' =>'Roue à l américaine',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'interior1',
-                'value' =>'Il s agit d un toit amovible en deux parties, offrant la possibilité de profiter de la conduite en plein air tout en conservant la rigidité de la carrosserie. Cela permet également de transformer rapidement la voiture en coupé pour une conduite plus confortable par mauvais temps.',
-                'car_id' => 3,
+                'value' =>'Comment ne pas évoquer les phares escamotables, symbole incontournable des voitures vintage ? Sur la Firebird, ils ajoutent une touche de caractère unique : dissimulés à l arrêt, spectaculaires à l allumage. Un détail qui fait toute la différence.',
+                'car_id' => 2,
             ],[
                 'name' =>'interior2',
                 'value' =>'Ces roues sont un élément crucial de son design. Elles sont généralement en alliage léger, ce qui réduit le poids non suspendu et améliore la maniabilité. La dimension est de 16 pouces de diamètre, ce qui permet d installer des pneus plus larges pour une meilleure adhérence. Que ce soit par temps froid ou chaud, ces fonctionnalités offrent une expérience de conduite plus agréable.',
-                'car_id' => 3,
+                'car_id' => 2,
             ]
         ];
         foreach ($descriptions as $descriptionData) {
@@ -313,7 +313,7 @@ class DatabaseSeeder extends Seeder
                 'name' =>'int2',
                 'path' =>'img/car/1/mustang-int2.webp',
                 'car_id' => 1,
-            ],[
+            ]/*,[
                 'name' =>'lateral',
                 'path' =>'img/car/2/corvette-lateral.webp',
                 'car_id' => 2,
@@ -329,22 +329,22 @@ class DatabaseSeeder extends Seeder
                 'name' =>'int2',
                 'path' =>'img/car/2/corvette-int2.webp',
                 'car_id' => 2,
-            ],[
+            ]*/,[
                 'name' =>'lateral',
                 'path' =>'img/car/3/firebird-lateral.webp',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'int0',
                 'path' =>'img/car/3/firebird-int0.webp',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'int1',
                 'path' =>'img/car/3/firebird-int1.webp',
-                'car_id' => 3,
+                'car_id' => 2,
             ],[
                 'name' =>'int2',
                 'path' =>'img/car/3/firebird-int2.webp',
-                'car_id' => 3
+                'car_id' => 2
             ]
         ];
         foreach ($photos as $photoData) {
