@@ -33,6 +33,7 @@ Route::get('/cars', \App\Http\Controllers\Car\IndexController::class)->name('car
 Route::get('/cars/mustang', [\App\Http\Controllers\Redirect\RedirectController::class, 'fordRedirect']);
 Route::get('/cars/c7', [\App\Http\Controllers\Redirect\RedirectController::class, 'C7Redirect']);
 Route::get('/cars/firebird', [\App\Http\Controllers\Redirect\RedirectController::class, 'firebirdRedirect']);
+Route::get('/cars/chevrolet-corvette-c7', [\App\Http\Controllers\Redirect\RedirectController::class, 'C7Redirect']);
 Route::get('/cars/{car:slug}', \App\Http\Controllers\Car\ShowController::class)->name('cars.show');
 
 //Route::get('/login', [LoginController::class, 'index'])->name('login.index');
