@@ -14,7 +14,8 @@ class RedirectController extends Controller
 
     public function C7Redirect()
     {
-        return Redirect::to('/cars/chevrolet-corvette-C7', 301);
+        //return Redirect::to('/cars/chevrolet-corvette-C7', 301);
+        return Redirect::to('/cars', 301);
     }
 
     public function firebirdRedirect()
